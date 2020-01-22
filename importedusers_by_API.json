@@ -1,0 +1,1433 @@
+{'pkid': '599f3fedacba0ae6b441121b', 'meta': {'title': "[u'Network Administrator']", 'cached': True, 'cache_control_policy': 'cache_then_device', 'tags': [], 'schema_version': '2.3', 'references': {'device': [{'pkid': '', 'href': ''}], 'self': [{'pkid': '599f3fedacba0ae6b441121b', 'href': '/api/relation/HcsUserREL/599f3fedacba0ae6b441121b/'}], 'children': [], 'parent': [{'pkid': '551dbc29acba0a169119a44e', 'href': '/api/data/HierarchyNode/551dbc29acba0a169119a44e'}]}, 'api_version': '11.5.1', 'model_type': 'relation/HcsUserREL', 'path': ['1c0ffee2c0deab00da595101', '545ab6b5acba0a18a0d3a86e', '551cbc26acba0a1691197134', '551cc09bacba0a1691197285', '551dbc29acba0a169119a44e', '599f3fedacba0ae6b441121b'], 'actions': [{'update': {'href': '/api/relation/HcsUserREL/599f3fedacba0ae6b441121b/?hierarchy=551cbc26acba0a1691197134', 'title': 'Modify', 'support_async': True, 'method': 'PUT', 'class': 'update'}}, {'remove': {'support_async': True, 'href': '/api/relation/HcsUserREL/599f3fedacba0ae6b441121b/?hierarchy=551cbc26acba0a1691197134', 'title': 'Delete', 'method': 'DELETE', 'class': 'delete'}}, {'export': {'href': '/api/relation/HcsUserREL/599f3fedacba0ae6b441121b/export/?hierarchy=551cbc26acba0a1691197134', 'title': 'Export', 'support_async': False, 'view': '/api/view/ExportData/add/?auth_token=%3D%3D%247N9qvyFUXIrxvrlF%24kT0b/kQAewzuyubLEXtez7ziFqyk0vbvbV6XUqcH%2BD8G17PLZEO4Zqr%2B9INOvBhDL%2BiueZ7sL7Sj9lWHpDMYP8FOodrbgBY%2B2nFx0/D13RvC7RNVb63Fkpdf5z%2BnkQE9ffwhsLKpFD0XmbGQ%2Bjj%2BrzJuSuthvDubpWuuRgPgC/IIWlc/BAwhAYTya6ipLd42R/bzKUGEHTUjJ8vHzpX81eXMVaYMA2qSN4t2hfcMBQF9Xg8EIc9cCbZeqUQBSiWCTSp02MkFcuFxsgynpwS/bpT/GqgUomAputRI0iCVnVQ%3D%24%3D%3D', 'method': 'GET', 'submit': 'payload', 'class': 'export'}}, {'get': {'support_async': False, 'href': '/api/relation/HcsUserREL/599f3fedacba0ae6b441121b/?hierarchy=551cbc26acba0a1691197134', 'title': 'Get', 'method': 'GET', 'class': 'get'}}, {'help': {'support_async': False, 'href': '/api/relation/HcsUserREL/599f3fedacba0ae6b441121b/help?hierarchy=551cbc26acba0a1691197134', 'title': 'Help', 'method': 'GET', 'class': 'help'}}], 'summary_attrs': [{'name': 'username', 'title': 'Username'}, {'name': 'givenName', 'title': 'Given Name'}, {'name': 'sn', 'title': 'Surname'}, {'name': 'mail', 'title': 'Email Address'}, {'name': 'userType', 'title': 'User Type'}, {'name': 'departmentNumber', 'title': 'Department'}, {'name': 'street', 'title': 'Street'}, {'name': 'l', 'title': 'City'}, {'name': 'st', 'title': 'State'}, {'name': 'postalCode', 'title': 'Postal Code'}, {'name': 'buildingName', 'title': 'Building'}], 'business_key': {}, 'tagged_versions': []}, 'data': {'username': 'agreen', 'departmentNumber': ['IT'], 'displayName': 'Allen Green', 'directoryUri': 'AllenGreen@liquidfinancial.com', 'title': ['Network Administrator'], 'objectClass': ['top', 'person', 'organizationalPerson', 'user'], 'userType': 'CUCDM-LDAP Synced', 'sn': ['Green'], 'mail': ['AllenGreen@liquidfinancial.com'], 'givenName': ['Allen'], 'telephoneNumber': ['5807935'], 'uid': ['agreen'], 'rbac': {'username': 'agreen', 'first_name': 'Allen', 'last_name': 'Green', 'language': 'en-us', 'account_information': {'disabled': False, 'password_last_change_time': '2018-07-14T20:21:49.095Z', 'locked': False, 'change_password_on_login': False}, 'set_language': True, 'role': 'LFDFWSelfService', 'email': 'AllenGreen@liquidfinancial.com'}, 'ps': {'username': 'agreen', 'cucm_device_user_pkid': '599f8735acba0ae6b4415790', 'sync_to_hn': '["Liquid Financial", "hcs.DCloudSP"]', 'ldap_server': '["lfad1.liquidfinancial.com", "389", "hcs.DCloudSP.Liquid Financial"]', 'entitlement_profile': '["DCloud-Bronze", "hcs.DCloudSP"]', 'cucm_server': '["198.18.1.13", "8443", "hcs.DCloudSP.Liquid Financial"]', 'ldap_device_user_pkid': '599f3fddacba0ae6b4410f47'}, 'ldap': {'ldap_server': '["lfad1.liquidfinancial.com", "389", "hcs.DCloudSP.Liquid Financial"]', 'data_username': 'agreen', 'ldap_username': 'agreen'}, 'ssoUser': [], 'sdrUser': []}}{
+    "operations": [
+        "help",
+        "get",
+        "export_bulkload_template",
+        "list",
+        "update",
+        "remove",
+        "add",
+        "export"
+    ],
+    "pagination": {
+        "order_by": "username",
+        "current": "/api/relation/HcsUserREL/?skip=0&limit=1&order_by=username&direction=asc&traversal=default",
+        "direction": "asc",
+        "limit": 1,
+        "total_limit": null,
+        "maximum_limit": 200,
+        "skip": 0,
+        "total": 33
+    },
+    "meta": {
+        "title": "",
+        "cached": true,
+        "tags": [],
+        "schema_version": "2.3",
+        "references": {
+            "device": [
+                {
+                    "pkid": "",
+                    "href": ""
+                }
+            ],
+            "self": [
+                {
+                    "pkid": null,
+                    "href": "/api/relation/HcsUserREL/None/"
+                }
+            ],
+            "children": [],
+            "parent": [
+                {
+                    "pkid": "551cbc26acba0a1691197134",
+                    "href": "/api/data/HierarchyNode/551cbc26acba0a1691197134"
+                }
+            ],
+            "foreign_key": []
+        },
+        "api_version": "11.5.1",
+        "model_type": "relation/HcsUserREL",
+        "model_specific_actions": [
+            "help",
+            "get",
+            "export_bulkload_template",
+            "list",
+            "update",
+            "remove",
+            "add",
+            "export"
+        ],
+        "actions": [
+            {
+                "add": {
+                    "support_async": false,
+                    "href": "/api/relation/HcsUserREL/add/?hierarchy=551cbc26acba0a1691197134",
+                    "title": "Add",
+                    "method": "GET",
+                    "class": "add"
+                }
+            },
+            {
+                "remove": {
+                    "support_async": true,
+                    "href": "/api/relation/HcsUserREL/?hierarchy=551cbc26acba0a1691197134",
+                    "title": "Delete",
+                    "method": "DELETE",
+                    "class": "delete"
+                }
+            },
+            {
+                "export": {
+                    "href": "/api/relation/HcsUserREL/export/?hierarchy=551cbc26acba0a1691197134",
+                    "title": "Export",
+                    "support_async": false,
+                    "view": "/api/view/ExportData/add/?auth_token=%3D%3D%24z7s1nymzhJFqYqz5%24YJ1Fwd4Xochr0pV%2BsD2NBcNjclt%2BaKL65Qep24lbSv6KnmQfMdl4/qCkLKDn7cHdVydcOQ%2BKcZRUBnCtVHyIizDnHxxnfuOqMIFWOZpMIMs9xVvlBTh5xbpNFJ2FFFcH6FhSl9pVHzCvojUme9tzUcs6gGn7dIiOipHIB0/bZ5jpBr0idwT5UxARbuWgJ/T1sgEuG1airlR6ibmrH1O28U8qy74t/6LQETvG6EX7j0My46oeHmqParBgaDRJak4lH%2BU%3D%24%3D%3D",
+                    "method": "POST",
+                    "submit": "payload",
+                    "class": "export"
+                }
+            },
+            {
+                "export_bulkload_template": {
+                    "support_async": false,
+                    "href": "/api/relation/HcsUserREL/export_bulkload_template/?hierarchy=551cbc26acba0a1691197134",
+                    "title": "Export Bulk Load Template",
+                    "method": "POST",
+                    "class": "bulkload_template"
+                }
+            },
+            {
+                "list": {
+                    "support_async": false,
+                    "href": "/api/relation/HcsUserREL/?hierarchy=551cbc26acba0a1691197134",
+                    "title": "List",
+                    "method": "GET",
+                    "class": "list"
+                }
+            },
+            {
+                "help": {
+                    "support_async": false,
+                    "href": "/api/relation/HcsUserREL/help?hierarchy=551cbc26acba0a1691197134",
+                    "title": "Help",
+                    "method": "GET",
+                    "class": "help"
+                }
+            }
+        ],
+        "summary_attrs": [
+            {
+                "name": "username",
+                "title": "Username"
+            },
+            {
+                "name": "givenName",
+                "title": "Given Name"
+            },
+            {
+                "name": "sn",
+                "title": "Surname"
+            },
+            {
+                "name": "mail",
+                "title": "Email Address"
+            },
+            {
+                "name": "userType",
+                "title": "User Type"
+            },
+            {
+                "name": "departmentNumber",
+                "title": "Department"
+            },
+            {
+                "name": "street",
+                "title": "Street"
+            },
+            {
+                "name": "l",
+                "title": "City"
+            },
+            {
+                "name": "st",
+                "title": "State"
+            },
+            {
+                "name": "postalCode",
+                "title": "Postal Code"
+            },
+            {
+                "name": "buildingName",
+                "title": "Building"
+            }
+        ],
+        "business_key": {},
+        "tagged_versions": []
+    },
+    "resources": [
+        {
+            "pkid": "599f3fedacba0ae6b441121b",
+            "meta": {
+                "title": "title format",
+                "cached": true,
+                "tags": [],
+                "schema_version": "1.6",
+                "summary": "false",
+                "references": {
+                    "parent": [
+                        {
+                            "pkid": "551dbc29acba0a169119a44e",
+                            "href": "/api/data/HierarchyNode/551dbc29acba0a169119a44e"
+                        }
+                    ],
+                    "self": [
+                        {
+                            "pkid": "599f3fedacba0ae6b441121b",
+                            "href": "/api/relation/HcsUserREL/599f3fedacba0ae6b441121b/"
+                        }
+                    ],
+                    "foreign_key": [],
+                    "owner": [
+                        {
+                            "pkid": ""
+                        }
+                    ],
+                    "device": [
+                        {
+                            "pkid": "",
+                            "href": ""
+                        }
+                    ],
+                    "children": []
+                },
+                "api_version": "11.5.1",
+                "model_type": "relation/HcsUserREL",
+                "path": [
+                    "1c0ffee2c0deab00da595101",
+                    "545ab6b5acba0a18a0d3a86e",
+                    "551cbc26acba0a1691197134",
+                    "551cc09bacba0a1691197285",
+                    "551dbc29acba0a169119a44e",
+                    "599f3fedacba0ae6b441121b"
+                ],
+                "actions": [
+                    {
+                        "update": {
+                            "href": "/api/relation/HcsUserREL/599f3fedacba0ae6b441121b/",
+                            "title": "Modify",
+                            "support_async": true,
+                            "method": "PUT",
+                            "class": "update"
+                        }
+                    },
+                    {
+                        "remove": {
+                            "support_async": true,
+                            "href": "/api/relation/HcsUserREL/599f3fedacba0ae6b441121b/",
+                            "title": "Delete",
+                            "method": "DELETE",
+                            "class": "delete"
+                        }
+                    },
+                    {
+                        "export": {
+                            "href": "/api/relation/HcsUserREL/599f3fedacba0ae6b441121b/export/",
+                            "title": "Export",
+                            "support_async": false,
+                            "view": "/api/view/ExportData/add/",
+                            "method": "GET",
+                            "submit": "payload",
+                            "class": "export"
+                        }
+                    },
+                    {
+                        "get": {
+                            "support_async": false,
+                            "href": "/api/relation/HcsUserREL/599f3fedacba0ae6b441121b/",
+                            "title": "Get",
+                            "method": "GET",
+                            "class": "get"
+                        }
+                    },
+                    {
+                        "help": {
+                            "support_async": false,
+                            "href": "/api/relation/HcsUserREL/599f3fedacba0ae6b441121b/help",
+                            "title": "Help",
+                            "method": "GET",
+                            "class": "help"
+                        }
+                    }
+                ],
+                "summary_attrs": [
+                    {
+                        "name": "username",
+                        "title": "Username"
+                    },
+                    {
+                        "name": "givenName",
+                        "title": "Given Name"
+                    },
+                    {
+                        "name": "sn",
+                        "title": "Surname"
+                    },
+                    {
+                        "name": "mail",
+                        "title": "Email Address"
+                    },
+                    {
+                        "name": "userType",
+                        "title": "User Type"
+                    },
+                    {
+                        "name": "departmentNumber",
+                        "title": "Department"
+                    },
+                    {
+                        "name": "street",
+                        "title": "Street"
+                    },
+                    {
+                        "name": "l",
+                        "title": "City"
+                    },
+                    {
+                        "name": "st",
+                        "title": "State"
+                    },
+                    {
+                        "name": "postalCode",
+                        "title": "Postal Code"
+                    },
+                    {
+                        "name": "buildingName",
+                        "title": "Building"
+                    },
+                    {
+                        "allow_filtering": false,
+                        "name": "hierarchy_path",
+                        "title": "Hierarchy"
+                    }
+                ],
+                "business_key": {
+                    "hierarchy": true,
+                    "unique": [
+                        "username"
+                    ]
+                },
+                "tagged_versions": []
+            },
+            "data": {
+                "username": "agreen",
+                "departmentNumber": [
+                    "IT"
+                ],
+                "displayName": "Allen Green",
+                "directoryUri": "AllenGreen@liquidfinancial.com",
+                "title": [
+                    "Network Administrator"
+                ],
+                "objectClass": [
+                    "top",
+                    "person",
+                    "organizationalPerson",
+                    "user"
+                ],
+                "hierarchy_path": "sys.hcs.DCloudSP.Liquid Financial.LFDFW",
+                "userType": "CUCDM-LDAP Synced",
+                "sn": [
+                    "Green"
+                ],
+                "mail": [
+                    "AllenGreen@liquidfinancial.com"
+                ],
+                "givenName": [
+                    "Allen"
+                ],
+                "pkid": "599f3fedacba0ae6b4411238",
+                "telephoneNumber": [
+                    "5807935"
+                ],
+                "uid": [
+                    "agreen"
+                ]
+            }
+        }
+    ]
+}{
+    "operations": [
+        "help",
+        "get",
+        "export_bulkload_template",
+        "list",
+        "update",
+        "remove",
+        "add",
+        "export"
+    ],
+    "pagination": {
+        "order_by": "username",
+        "current": "/api/relation/HcsUserREL/?skip=0&limit=1&order_by=username&direction=asc&traversal=default",
+        "direction": "asc",
+        "limit": 1,
+        "total_limit": null,
+        "maximum_limit": 200,
+        "skip": 0,
+        "total": 33
+    },
+    "meta": {
+        "title": "",
+        "cached": true,
+        "tags": [],
+        "schema_version": "2.3",
+        "references": {
+            "device": [
+                {
+                    "pkid": "",
+                    "href": ""
+                }
+            ],
+            "self": [
+                {
+                    "pkid": null,
+                    "href": "/api/relation/HcsUserREL/None/"
+                }
+            ],
+            "children": [],
+            "parent": [
+                {
+                    "pkid": "551cbc26acba0a1691197134",
+                    "href": "/api/data/HierarchyNode/551cbc26acba0a1691197134"
+                }
+            ],
+            "foreign_key": []
+        },
+        "api_version": "11.5.1",
+        "model_type": "relation/HcsUserREL",
+        "model_specific_actions": [
+            "help",
+            "get",
+            "export_bulkload_template",
+            "list",
+            "update",
+            "remove",
+            "add",
+            "export"
+        ],
+        "actions": [
+            {
+                "add": {
+                    "support_async": false,
+                    "href": "/api/relation/HcsUserREL/add/?hierarchy=551cbc26acba0a1691197134",
+                    "title": "Add",
+                    "method": "GET",
+                    "class": "add"
+                }
+            },
+            {
+                "remove": {
+                    "support_async": true,
+                    "href": "/api/relation/HcsUserREL/?hierarchy=551cbc26acba0a1691197134",
+                    "title": "Delete",
+                    "method": "DELETE",
+                    "class": "delete"
+                }
+            },
+            {
+                "export": {
+                    "href": "/api/relation/HcsUserREL/export/?hierarchy=551cbc26acba0a1691197134",
+                    "title": "Export",
+                    "support_async": false,
+                    "view": "/api/view/ExportData/add/?auth_token=%3D%3D%24NGm4LFrsWIhfKyQ6%24NeUuqrYnoA5ac4zfE69mJCEfNVl%2BPRfvo/8mvTo%2BEFNWYWKTaOfUk1JZNrLaI23UbeB1ic1K6IDUi7m%2B1PdkFO434NEpFal0nPbe6GJOMXKJ52oyWj%2Bt7A%2BHViNEoKel9r3nD6lroeYM5XyzFVuGmffKY0ntUOPIg6kfFKBtpBC3zHnNuYcx0bYkDzWNLcbpkdX9RWMxSl2eW5xfz%2B/JW%2BS4YuNrUqi4CuAUAE0HSTpResHizoRgojq/tz0NHHy56ZU%3D%24%3D%3D",
+                    "method": "POST",
+                    "submit": "payload",
+                    "class": "export"
+                }
+            },
+            {
+                "export_bulkload_template": {
+                    "support_async": false,
+                    "href": "/api/relation/HcsUserREL/export_bulkload_template/?hierarchy=551cbc26acba0a1691197134",
+                    "title": "Export Bulk Load Template",
+                    "method": "POST",
+                    "class": "bulkload_template"
+                }
+            },
+            {
+                "list": {
+                    "support_async": false,
+                    "href": "/api/relation/HcsUserREL/?hierarchy=551cbc26acba0a1691197134",
+                    "title": "List",
+                    "method": "GET",
+                    "class": "list"
+                }
+            },
+            {
+                "help": {
+                    "support_async": false,
+                    "href": "/api/relation/HcsUserREL/help?hierarchy=551cbc26acba0a1691197134",
+                    "title": "Help",
+                    "method": "GET",
+                    "class": "help"
+                }
+            }
+        ],
+        "summary_attrs": [
+            {
+                "name": "username",
+                "title": "Username"
+            },
+            {
+                "name": "givenName",
+                "title": "Given Name"
+            },
+            {
+                "name": "sn",
+                "title": "Surname"
+            },
+            {
+                "name": "mail",
+                "title": "Email Address"
+            },
+            {
+                "name": "userType",
+                "title": "User Type"
+            },
+            {
+                "name": "departmentNumber",
+                "title": "Department"
+            },
+            {
+                "name": "street",
+                "title": "Street"
+            },
+            {
+                "name": "l",
+                "title": "City"
+            },
+            {
+                "name": "st",
+                "title": "State"
+            },
+            {
+                "name": "postalCode",
+                "title": "Postal Code"
+            },
+            {
+                "name": "buildingName",
+                "title": "Building"
+            }
+        ],
+        "business_key": {},
+        "tagged_versions": []
+    },
+    "resources": [
+        {
+            "pkid": "599f3fedacba0ae6b441121b",
+            "meta": {
+                "title": "title format",
+                "cached": true,
+                "tags": [],
+                "schema_version": "1.6",
+                "summary": "false",
+                "references": {
+                    "parent": [
+                        {
+                            "pkid": "551dbc29acba0a169119a44e",
+                            "href": "/api/data/HierarchyNode/551dbc29acba0a169119a44e"
+                        }
+                    ],
+                    "self": [
+                        {
+                            "pkid": "599f3fedacba0ae6b441121b",
+                            "href": "/api/relation/HcsUserREL/599f3fedacba0ae6b441121b/"
+                        }
+                    ],
+                    "foreign_key": [],
+                    "owner": [
+                        {
+                            "pkid": ""
+                        }
+                    ],
+                    "device": [
+                        {
+                            "pkid": "",
+                            "href": ""
+                        }
+                    ],
+                    "children": []
+                },
+                "api_version": "11.5.1",
+                "model_type": "relation/HcsUserREL",
+                "path": [
+                    "1c0ffee2c0deab00da595101",
+                    "545ab6b5acba0a18a0d3a86e",
+                    "551cbc26acba0a1691197134",
+                    "551cc09bacba0a1691197285",
+                    "551dbc29acba0a169119a44e",
+                    "599f3fedacba0ae6b441121b"
+                ],
+                "actions": [
+                    {
+                        "update": {
+                            "href": "/api/relation/HcsUserREL/599f3fedacba0ae6b441121b/",
+                            "title": "Modify",
+                            "support_async": true,
+                            "method": "PUT",
+                            "class": "update"
+                        }
+                    },
+                    {
+                        "remove": {
+                            "support_async": true,
+                            "href": "/api/relation/HcsUserREL/599f3fedacba0ae6b441121b/",
+                            "title": "Delete",
+                            "method": "DELETE",
+                            "class": "delete"
+                        }
+                    },
+                    {
+                        "export": {
+                            "href": "/api/relation/HcsUserREL/599f3fedacba0ae6b441121b/export/",
+                            "title": "Export",
+                            "support_async": false,
+                            "view": "/api/view/ExportData/add/",
+                            "method": "GET",
+                            "submit": "payload",
+                            "class": "export"
+                        }
+                    },
+                    {
+                        "get": {
+                            "support_async": false,
+                            "href": "/api/relation/HcsUserREL/599f3fedacba0ae6b441121b/",
+                            "title": "Get",
+                            "method": "GET",
+                            "class": "get"
+                        }
+                    },
+                    {
+                        "help": {
+                            "support_async": false,
+                            "href": "/api/relation/HcsUserREL/599f3fedacba0ae6b441121b/help",
+                            "title": "Help",
+                            "method": "GET",
+                            "class": "help"
+                        }
+                    }
+                ],
+                "summary_attrs": [
+                    {
+                        "name": "username",
+                        "title": "Username"
+                    },
+                    {
+                        "name": "givenName",
+                        "title": "Given Name"
+                    },
+                    {
+                        "name": "sn",
+                        "title": "Surname"
+                    },
+                    {
+                        "name": "mail",
+                        "title": "Email Address"
+                    },
+                    {
+                        "name": "userType",
+                        "title": "User Type"
+                    },
+                    {
+                        "name": "departmentNumber",
+                        "title": "Department"
+                    },
+                    {
+                        "name": "street",
+                        "title": "Street"
+                    },
+                    {
+                        "name": "l",
+                        "title": "City"
+                    },
+                    {
+                        "name": "st",
+                        "title": "State"
+                    },
+                    {
+                        "name": "postalCode",
+                        "title": "Postal Code"
+                    },
+                    {
+                        "name": "buildingName",
+                        "title": "Building"
+                    },
+                    {
+                        "allow_filtering": false,
+                        "name": "hierarchy_path",
+                        "title": "Hierarchy"
+                    }
+                ],
+                "business_key": {
+                    "hierarchy": true,
+                    "unique": [
+                        "username"
+                    ]
+                },
+                "tagged_versions": []
+            },
+            "data": {
+                "username": "agreen",
+                "departmentNumber": [
+                    "IT"
+                ],
+                "displayName": "Allen Green",
+                "directoryUri": "AllenGreen@liquidfinancial.com",
+                "title": [
+                    "Network Administrator"
+                ],
+                "objectClass": [
+                    "top",
+                    "person",
+                    "organizationalPerson",
+                    "user"
+                ],
+                "hierarchy_path": "sys.hcs.DCloudSP.Liquid Financial.LFDFW",
+                "userType": "CUCDM-LDAP Synced",
+                "sn": [
+                    "Green"
+                ],
+                "mail": [
+                    "AllenGreen@liquidfinancial.com"
+                ],
+                "givenName": [
+                    "Allen"
+                ],
+                "pkid": "599f3fedacba0ae6b4411238",
+                "telephoneNumber": [
+                    "5807935"
+                ],
+                "uid": [
+                    "agreen"
+                ]
+            }
+        }
+    ]
+}{
+    "operations": [
+        "help",
+        "get",
+        "export_bulkload_template",
+        "list",
+        "update",
+        "remove",
+        "add",
+        "export"
+    ],
+    "pagination": {
+        "order_by": "username",
+        "current": "/api/relation/HcsUserREL/?skip=0&limit=1&order_by=username&direction=asc&traversal=default",
+        "direction": "asc",
+        "limit": 1,
+        "total_limit": null,
+        "maximum_limit": 200,
+        "skip": 0,
+        "total": 33
+    },
+    "meta": {
+        "title": "",
+        "cached": true,
+        "tags": [],
+        "schema_version": "2.3",
+        "references": {
+            "device": [
+                {
+                    "pkid": "",
+                    "href": ""
+                }
+            ],
+            "self": [
+                {
+                    "pkid": null,
+                    "href": "/api/relation/HcsUserREL/None/"
+                }
+            ],
+            "children": [],
+            "parent": [
+                {
+                    "pkid": "551cbc26acba0a1691197134",
+                    "href": "/api/data/HierarchyNode/551cbc26acba0a1691197134"
+                }
+            ],
+            "foreign_key": []
+        },
+        "api_version": "11.5.1",
+        "model_type": "relation/HcsUserREL",
+        "model_specific_actions": [
+            "help",
+            "get",
+            "export_bulkload_template",
+            "list",
+            "update",
+            "remove",
+            "add",
+            "export"
+        ],
+        "actions": [
+            {
+                "add": {
+                    "support_async": false,
+                    "href": "/api/relation/HcsUserREL/add/?hierarchy=551cbc26acba0a1691197134",
+                    "title": "Add",
+                    "method": "GET",
+                    "class": "add"
+                }
+            },
+            {
+                "remove": {
+                    "support_async": true,
+                    "href": "/api/relation/HcsUserREL/?hierarchy=551cbc26acba0a1691197134",
+                    "title": "Delete",
+                    "method": "DELETE",
+                    "class": "delete"
+                }
+            },
+            {
+                "export": {
+                    "href": "/api/relation/HcsUserREL/export/?hierarchy=551cbc26acba0a1691197134",
+                    "title": "Export",
+                    "support_async": false,
+                    "view": "/api/view/ExportData/add/?auth_token=%3D%3D%24j7s6jIa3WPNNr7mi%24hzwZsivpwRzLZeqC%2BjnBTr2mlFwu8u4ul5zGiiUT3I%2BwdHKPzVyz5da78DcCSc0nmrf62SWflokE7D71/lKlTCjAEuYJkMTfo11TZug8P6RR7ciutcRY6INBzwdvgBrqzVSwm3yiAKCK9eM6WM3%2BV75hN/XvWnL1WSYXZxTmCfPcGHytUAkKXVuDCCJCbB%2BCOTtR7c5VJynVVm8OdYu3wq7r%2BZUdJMpFW22/kw7%2BDtPIwwTRK38nYsWxrVi8RkFf6EQ%3D%24%3D%3D",
+                    "method": "POST",
+                    "submit": "payload",
+                    "class": "export"
+                }
+            },
+            {
+                "export_bulkload_template": {
+                    "support_async": false,
+                    "href": "/api/relation/HcsUserREL/export_bulkload_template/?hierarchy=551cbc26acba0a1691197134",
+                    "title": "Export Bulk Load Template",
+                    "method": "POST",
+                    "class": "bulkload_template"
+                }
+            },
+            {
+                "list": {
+                    "support_async": false,
+                    "href": "/api/relation/HcsUserREL/?hierarchy=551cbc26acba0a1691197134",
+                    "title": "List",
+                    "method": "GET",
+                    "class": "list"
+                }
+            },
+            {
+                "help": {
+                    "support_async": false,
+                    "href": "/api/relation/HcsUserREL/help?hierarchy=551cbc26acba0a1691197134",
+                    "title": "Help",
+                    "method": "GET",
+                    "class": "help"
+                }
+            }
+        ],
+        "summary_attrs": [
+            {
+                "name": "username",
+                "title": "Username"
+            },
+            {
+                "name": "givenName",
+                "title": "Given Name"
+            },
+            {
+                "name": "sn",
+                "title": "Surname"
+            },
+            {
+                "name": "mail",
+                "title": "Email Address"
+            },
+            {
+                "name": "userType",
+                "title": "User Type"
+            },
+            {
+                "name": "departmentNumber",
+                "title": "Department"
+            },
+            {
+                "name": "street",
+                "title": "Street"
+            },
+            {
+                "name": "l",
+                "title": "City"
+            },
+            {
+                "name": "st",
+                "title": "State"
+            },
+            {
+                "name": "postalCode",
+                "title": "Postal Code"
+            },
+            {
+                "name": "buildingName",
+                "title": "Building"
+            }
+        ],
+        "business_key": {},
+        "tagged_versions": []
+    },
+    "resources": [
+        {
+            "pkid": "599f3fedacba0ae6b441121b",
+            "meta": {
+                "title": "title format",
+                "cached": true,
+                "tags": [],
+                "schema_version": "1.6",
+                "summary": "false",
+                "references": {
+                    "parent": [
+                        {
+                            "pkid": "551dbc29acba0a169119a44e",
+                            "href": "/api/data/HierarchyNode/551dbc29acba0a169119a44e"
+                        }
+                    ],
+                    "self": [
+                        {
+                            "pkid": "599f3fedacba0ae6b441121b",
+                            "href": "/api/relation/HcsUserREL/599f3fedacba0ae6b441121b/"
+                        }
+                    ],
+                    "foreign_key": [],
+                    "owner": [
+                        {
+                            "pkid": ""
+                        }
+                    ],
+                    "device": [
+                        {
+                            "pkid": "",
+                            "href": ""
+                        }
+                    ],
+                    "children": []
+                },
+                "api_version": "11.5.1",
+                "model_type": "relation/HcsUserREL",
+                "path": [
+                    "1c0ffee2c0deab00da595101",
+                    "545ab6b5acba0a18a0d3a86e",
+                    "551cbc26acba0a1691197134",
+                    "551cc09bacba0a1691197285",
+                    "551dbc29acba0a169119a44e",
+                    "599f3fedacba0ae6b441121b"
+                ],
+                "actions": [
+                    {
+                        "update": {
+                            "href": "/api/relation/HcsUserREL/599f3fedacba0ae6b441121b/",
+                            "title": "Modify",
+                            "support_async": true,
+                            "method": "PUT",
+                            "class": "update"
+                        }
+                    },
+                    {
+                        "remove": {
+                            "support_async": true,
+                            "href": "/api/relation/HcsUserREL/599f3fedacba0ae6b441121b/",
+                            "title": "Delete",
+                            "method": "DELETE",
+                            "class": "delete"
+                        }
+                    },
+                    {
+                        "export": {
+                            "href": "/api/relation/HcsUserREL/599f3fedacba0ae6b441121b/export/",
+                            "title": "Export",
+                            "support_async": false,
+                            "view": "/api/view/ExportData/add/",
+                            "method": "GET",
+                            "submit": "payload",
+                            "class": "export"
+                        }
+                    },
+                    {
+                        "get": {
+                            "support_async": false,
+                            "href": "/api/relation/HcsUserREL/599f3fedacba0ae6b441121b/",
+                            "title": "Get",
+                            "method": "GET",
+                            "class": "get"
+                        }
+                    },
+                    {
+                        "help": {
+                            "support_async": false,
+                            "href": "/api/relation/HcsUserREL/599f3fedacba0ae6b441121b/help",
+                            "title": "Help",
+                            "method": "GET",
+                            "class": "help"
+                        }
+                    }
+                ],
+                "summary_attrs": [
+                    {
+                        "name": "username",
+                        "title": "Username"
+                    },
+                    {
+                        "name": "givenName",
+                        "title": "Given Name"
+                    },
+                    {
+                        "name": "sn",
+                        "title": "Surname"
+                    },
+                    {
+                        "name": "mail",
+                        "title": "Email Address"
+                    },
+                    {
+                        "name": "userType",
+                        "title": "User Type"
+                    },
+                    {
+                        "name": "departmentNumber",
+                        "title": "Department"
+                    },
+                    {
+                        "name": "street",
+                        "title": "Street"
+                    },
+                    {
+                        "name": "l",
+                        "title": "City"
+                    },
+                    {
+                        "name": "st",
+                        "title": "State"
+                    },
+                    {
+                        "name": "postalCode",
+                        "title": "Postal Code"
+                    },
+                    {
+                        "name": "buildingName",
+                        "title": "Building"
+                    },
+                    {
+                        "allow_filtering": false,
+                        "name": "hierarchy_path",
+                        "title": "Hierarchy"
+                    }
+                ],
+                "business_key": {
+                    "hierarchy": true,
+                    "unique": [
+                        "username"
+                    ]
+                },
+                "tagged_versions": []
+            },
+            "data": {
+                "username": "agreen",
+                "departmentNumber": [
+                    "IT"
+                ],
+                "displayName": "Allen Green",
+                "directoryUri": "AllenGreen@liquidfinancial.com",
+                "title": [
+                    "Network Administrator"
+                ],
+                "objectClass": [
+                    "top",
+                    "person",
+                    "organizationalPerson",
+                    "user"
+                ],
+                "hierarchy_path": "sys.hcs.DCloudSP.Liquid Financial.LFDFW",
+                "userType": "CUCDM-LDAP Synced",
+                "sn": [
+                    "Green"
+                ],
+                "mail": [
+                    "AllenGreen@liquidfinancial.com"
+                ],
+                "givenName": [
+                    "Allen"
+                ],
+                "pkid": "599f3fedacba0ae6b4411238",
+                "telephoneNumber": [
+                    "5807935"
+                ],
+                "uid": [
+                    "agreen"
+                ]
+            }
+        }
+    ]
+}{
+    "operations": [
+        "help",
+        "get",
+        "export_bulkload_template",
+        "list",
+        "update",
+        "remove",
+        "add",
+        "export"
+    ],
+    "pagination": {
+        "order_by": "username",
+        "current": "/api/relation/HcsUserREL/?skip=0&limit=1&order_by=username&direction=asc&traversal=default",
+        "direction": "asc",
+        "limit": 1,
+        "total_limit": null,
+        "maximum_limit": 200,
+        "skip": 0,
+        "total": 33
+    },
+    "meta": {
+        "title": "",
+        "cached": true,
+        "tags": [],
+        "schema_version": "2.3",
+        "references": {
+            "device": [
+                {
+                    "pkid": "",
+                    "href": ""
+                }
+            ],
+            "self": [
+                {
+                    "pkid": null,
+                    "href": "/api/relation/HcsUserREL/None/"
+                }
+            ],
+            "children": [],
+            "parent": [
+                {
+                    "pkid": "551cbc26acba0a1691197134",
+                    "href": "/api/data/HierarchyNode/551cbc26acba0a1691197134"
+                }
+            ],
+            "foreign_key": []
+        },
+        "api_version": "11.5.1",
+        "model_type": "relation/HcsUserREL",
+        "model_specific_actions": [
+            "help",
+            "get",
+            "export_bulkload_template",
+            "list",
+            "update",
+            "remove",
+            "add",
+            "export"
+        ],
+        "actions": [
+            {
+                "add": {
+                    "support_async": false,
+                    "href": "/api/relation/HcsUserREL/add/?hierarchy=551cbc26acba0a1691197134",
+                    "title": "Add",
+                    "method": "GET",
+                    "class": "add"
+                }
+            },
+            {
+                "remove": {
+                    "support_async": true,
+                    "href": "/api/relation/HcsUserREL/?hierarchy=551cbc26acba0a1691197134",
+                    "title": "Delete",
+                    "method": "DELETE",
+                    "class": "delete"
+                }
+            },
+            {
+                "export": {
+                    "href": "/api/relation/HcsUserREL/export/?hierarchy=551cbc26acba0a1691197134",
+                    "title": "Export",
+                    "support_async": false,
+                    "view": "/api/view/ExportData/add/?auth_token=%3D%3D%24Cl2NBxHEgR78ba7n%24Xb0871LOOCCsGbCT3zOit72YpIXKXxDW5CWDlTQensuhxJtJx6oHNb1S1Pz5UYkqN/kUtU9zHK5hc9f%2BAo7F5EjzankOZHO/pwU8VTCbLrdy9MGYaQXPKEaEh60bzkX9laQWU/CI8qErTFi63lo97XhGhPcmLdjBlxzEszYDUv1%2B9QsEay31sA5cf1ByW3OHHR%2Bauo6dpAmgzL9ch8DkA5XU6Ye4BZo4dt5f%2B2FehLFOPMzuOU10V2cZaDrho4mTWhE%3D%24%3D%3D",
+                    "method": "POST",
+                    "submit": "payload",
+                    "class": "export"
+                }
+            },
+            {
+                "export_bulkload_template": {
+                    "support_async": false,
+                    "href": "/api/relation/HcsUserREL/export_bulkload_template/?hierarchy=551cbc26acba0a1691197134",
+                    "title": "Export Bulk Load Template",
+                    "method": "POST",
+                    "class": "bulkload_template"
+                }
+            },
+            {
+                "list": {
+                    "support_async": false,
+                    "href": "/api/relation/HcsUserREL/?hierarchy=551cbc26acba0a1691197134",
+                    "title": "List",
+                    "method": "GET",
+                    "class": "list"
+                }
+            },
+            {
+                "help": {
+                    "support_async": false,
+                    "href": "/api/relation/HcsUserREL/help?hierarchy=551cbc26acba0a1691197134",
+                    "title": "Help",
+                    "method": "GET",
+                    "class": "help"
+                }
+            }
+        ],
+        "summary_attrs": [
+            {
+                "name": "username",
+                "title": "Username"
+            },
+            {
+                "name": "givenName",
+                "title": "Given Name"
+            },
+            {
+                "name": "sn",
+                "title": "Surname"
+            },
+            {
+                "name": "mail",
+                "title": "Email Address"
+            },
+            {
+                "name": "userType",
+                "title": "User Type"
+            },
+            {
+                "name": "departmentNumber",
+                "title": "Department"
+            },
+            {
+                "name": "street",
+                "title": "Street"
+            },
+            {
+                "name": "l",
+                "title": "City"
+            },
+            {
+                "name": "st",
+                "title": "State"
+            },
+            {
+                "name": "postalCode",
+                "title": "Postal Code"
+            },
+            {
+                "name": "buildingName",
+                "title": "Building"
+            }
+        ],
+        "business_key": {},
+        "tagged_versions": []
+    },
+    "resources": [
+        {
+            "pkid": "599f3fedacba0ae6b441121b",
+            "meta": {
+                "title": "title format",
+                "cached": true,
+                "tags": [],
+                "schema_version": "1.6",
+                "summary": "false",
+                "references": {
+                    "parent": [
+                        {
+                            "pkid": "551dbc29acba0a169119a44e",
+                            "href": "/api/data/HierarchyNode/551dbc29acba0a169119a44e"
+                        }
+                    ],
+                    "self": [
+                        {
+                            "pkid": "599f3fedacba0ae6b441121b",
+                            "href": "/api/relation/HcsUserREL/599f3fedacba0ae6b441121b/"
+                        }
+                    ],
+                    "foreign_key": [],
+                    "owner": [
+                        {
+                            "pkid": ""
+                        }
+                    ],
+                    "device": [
+                        {
+                            "pkid": "",
+                            "href": ""
+                        }
+                    ],
+                    "children": []
+                },
+                "api_version": "11.5.1",
+                "model_type": "relation/HcsUserREL",
+                "path": [
+                    "1c0ffee2c0deab00da595101",
+                    "545ab6b5acba0a18a0d3a86e",
+                    "551cbc26acba0a1691197134",
+                    "551cc09bacba0a1691197285",
+                    "551dbc29acba0a169119a44e",
+                    "599f3fedacba0ae6b441121b"
+                ],
+                "actions": [
+                    {
+                        "update": {
+                            "href": "/api/relation/HcsUserREL/599f3fedacba0ae6b441121b/",
+                            "title": "Modify",
+                            "support_async": true,
+                            "method": "PUT",
+                            "class": "update"
+                        }
+                    },
+                    {
+                        "remove": {
+                            "support_async": true,
+                            "href": "/api/relation/HcsUserREL/599f3fedacba0ae6b441121b/",
+                            "title": "Delete",
+                            "method": "DELETE",
+                            "class": "delete"
+                        }
+                    },
+                    {
+                        "export": {
+                            "href": "/api/relation/HcsUserREL/599f3fedacba0ae6b441121b/export/",
+                            "title": "Export",
+                            "support_async": false,
+                            "view": "/api/view/ExportData/add/",
+                            "method": "GET",
+                            "submit": "payload",
+                            "class": "export"
+                        }
+                    },
+                    {
+                        "get": {
+                            "support_async": false,
+                            "href": "/api/relation/HcsUserREL/599f3fedacba0ae6b441121b/",
+                            "title": "Get",
+                            "method": "GET",
+                            "class": "get"
+                        }
+                    },
+                    {
+                        "help": {
+                            "support_async": false,
+                            "href": "/api/relation/HcsUserREL/599f3fedacba0ae6b441121b/help",
+                            "title": "Help",
+                            "method": "GET",
+                            "class": "help"
+                        }
+                    }
+                ],
+                "summary_attrs": [
+                    {
+                        "name": "username",
+                        "title": "Username"
+                    },
+                    {
+                        "name": "givenName",
+                        "title": "Given Name"
+                    },
+                    {
+                        "name": "sn",
+                        "title": "Surname"
+                    },
+                    {
+                        "name": "mail",
+                        "title": "Email Address"
+                    },
+                    {
+                        "name": "userType",
+                        "title": "User Type"
+                    },
+                    {
+                        "name": "departmentNumber",
+                        "title": "Department"
+                    },
+                    {
+                        "name": "street",
+                        "title": "Street"
+                    },
+                    {
+                        "name": "l",
+                        "title": "City"
+                    },
+                    {
+                        "name": "st",
+                        "title": "State"
+                    },
+                    {
+                        "name": "postalCode",
+                        "title": "Postal Code"
+                    },
+                    {
+                        "name": "buildingName",
+                        "title": "Building"
+                    },
+                    {
+                        "allow_filtering": false,
+                        "name": "hierarchy_path",
+                        "title": "Hierarchy"
+                    }
+                ],
+                "business_key": {
+                    "hierarchy": true,
+                    "unique": [
+                        "username"
+                    ]
+                },
+                "tagged_versions": []
+            },
+            "data": {
+                "username": "agreen",
+                "departmentNumber": [
+                    "IT"
+                ],
+                "displayName": "Allen Green",
+                "directoryUri": "AllenGreen@liquidfinancial.com",
+                "title": [
+                    "Network Administrator"
+                ],
+                "objectClass": [
+                    "top",
+                    "person",
+                    "organizationalPerson",
+                    "user"
+                ],
+                "hierarchy_path": "sys.hcs.DCloudSP.Liquid Financial.LFDFW",
+                "userType": "CUCDM-LDAP Synced",
+                "sn": [
+                    "Green"
+                ],
+                "mail": [
+                    "AllenGreen@liquidfinancial.com"
+                ],
+                "givenName": [
+                    "Allen"
+                ],
+                "pkid": "599f3fedacba0ae6b4411238",
+                "telephoneNumber": [
+                    "5807935"
+                ],
+                "uid": [
+                    "agreen"
+                ]
+            }
+        }
+    ]
+}

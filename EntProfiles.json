@@ -1,0 +1,113 @@
+{
+    "meta": {},
+    "resources": [
+        {
+            "meta": {
+                "model_type": "data/HcsEntitlementProfileDAT",
+                "pkid": "551db588acba0a1691197471",
+                "schema_version": "2.2",
+                "hierarchy": "sys.hcs.DCloudSP",
+                "tags": []
+            },
+            "data": {
+                "extension_mobility": false,
+                "description": "Bronze service profile",
+                "presence": true,
+                "voicemail": false,
+                "num_devices": 1,
+                "snr": true,
+                "device_groups": [
+                    {
+                        "num_devices": 1,
+                        "device_group": "AllDevices"
+                    }
+                ],
+                "webex": true,
+                "voice": true,
+                "cmr": true,
+                "name": "DCloud-Bronze"
+            }
+        },
+        {
+            "meta": {
+                "model_type": "data/HcsEntitlementProfileDAT",
+                "pkid": "551db501acba0a1691197435",
+                "schema_version": "2.2",
+                "hierarchy": "sys.hcs.DCloudSP",
+                "tags": []
+            },
+            "data": {
+                "extension_mobility": true,
+                "description": "Executive services profile",
+                "presence": true,
+                "voicemail": true,
+                "num_devices": 10,
+                "snr": true,
+                "device_groups": [
+                    {
+                        "num_devices": 10,
+                        "device_group": "AllDevices"
+                    }
+                ],
+                "webex": true,
+                "voice": true,
+                "cmr": true,
+                "name": "DCloud-Exec"
+            }
+        },
+        {
+            "meta": {
+                "model_type": "data/HcsEntitlementProfileDAT",
+                "pkid": "551db532acba0a1691197449",
+                "schema_version": "2.2",
+                "hierarchy": "sys.hcs.DCloudSP",
+                "tags": []
+            },
+            "data": {
+                "num_devices": 5,
+                "name": "DCloud-Gold",
+                "presence": true,
+                "voicemail": true,
+                "extension_mobility": false,
+                "snr": true,
+                "device_groups": [
+                    {
+                        "num_devices": 5,
+                        "device_group": "AllDevices"
+                    }
+                ],
+                "webex": true,
+                "voice": true,
+                "cmr": true
+            }
+        },
+        {
+            "meta": {
+                "model_type": "data/HcsEntitlementProfileDAT",
+                "pkid": "551db562acba0a169119745d",
+                "schema_version": "2.2",
+                "hierarchy": "sys.hcs.DCloudSP",
+                "tags": []
+            },
+            "data": {
+                "extension_mobility": false,
+                "description": "Silver service profile",
+                "presence": true,
+                "voicemail": false,
+                "num_devices": 5,
+                "snr": true,
+                "device_groups": [
+                    {
+                        "num_devices": 5,
+                        "device_group": "AllDevices"
+                    }
+                ],
+                "webex": true,
+                "voice": true,
+                "defaultprofile": true,
+                "cmr": true,
+                "name": "DCloud-Silver"
+            }
+        }
+    ]
+}

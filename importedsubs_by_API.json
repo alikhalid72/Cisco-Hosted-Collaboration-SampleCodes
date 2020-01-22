@@ -1,0 +1,1988 @@
+{
+    "operations": [
+        "help",
+        "get",
+        "export_bulkload_template",
+        "move",
+        "list",
+        "update",
+        "remove",
+        "add",
+        "export"
+    ],
+    "pagination": {
+        "order_by": "userid",
+        "current": "/api/relation/Subscriber/?skip=0&limit=5&order_by=userid&direction=asc&traversal=default",
+        "direction": "asc",
+        "limit": 5,
+        "total_limit": null,
+        "maximum_limit": 200,
+        "skip": 0,
+        "total": 12
+    },
+    "meta": {
+        "title": "",
+        "cached": true,
+        "tags": [],
+        "schema_version": "1.2.2",
+        "references": {
+            "device": [
+                {
+                    "pkid": "",
+                    "href": ""
+                }
+            ],
+            "self": [
+                {
+                    "pkid": null,
+                    "href": "/api/relation/Subscriber/None/"
+                }
+            ],
+            "children": [],
+            "parent": [
+                {
+                    "pkid": "551cbc26acba0a1691197134",
+                    "href": "/api/data/HierarchyNode/551cbc26acba0a1691197134"
+                }
+            ],
+            "foreign_key": []
+        },
+        "api_version": "11.5.1",
+        "model_type": "relation/Subscriber",
+        "model_specific_actions": [
+            "help",
+            "get",
+            "export_bulkload_template",
+            "move",
+            "list",
+            "update",
+            "remove",
+            "add",
+            "export"
+        ],
+        "actions": [
+            {
+                "add": {
+                    "support_async": false,
+                    "href": "/api/relation/Subscriber/add/?hierarchy=551cbc26acba0a1691197134",
+                    "title": "Add",
+                    "method": "GET",
+                    "class": "add"
+                }
+            },
+            {
+                "remove": {
+                    "support_async": true,
+                    "href": "/api/relation/Subscriber/?hierarchy=551cbc26acba0a1691197134",
+                    "title": "Delete",
+                    "method": "DELETE",
+                    "class": "delete"
+                }
+            },
+            {
+                "move": {
+                    "title": "Move",
+                    "support_async": true,
+                    "class": "move",
+                    "href": "/api/tool/DataMove/?hierarchy=551cbc26acba0a1691197134&model_type=relation/Subscriber",
+                    "method": "POST",
+                    "view": "/api/tool/DataMove/?auth_token=%3D%3D%24QG96IuS4bYhs4tnd%24QW2Ujv970P5D8k014JZ7ifw5rndEpFsqKTNnfslapPniilcIsRuDCqwZwPvxeOHSdt4MSIBdoB8cmMCRGCoI9gPW00Tnz1EMEQchxVI9zUK52y2eCJJotflAcRP9kb3eglu/d7isY8NrxwiuaIn7GaN%2BI8QmbARNi3aC1Iwl4CSs/LFr%2BYnmf5GzfdS9vk84rkKvPXT9jFMURcUQ80cihWQ2o/ibYzz2MczxtXkCxdUmP211NYY16A0dY6s%3D%24%3D%3D"
+                }
+            },
+            {
+                "export": {
+                    "href": "/api/relation/Subscriber/export/?hierarchy=551cbc26acba0a1691197134",
+                    "title": "Export",
+                    "support_async": false,
+                    "view": "/api/view/ExportData/add/?auth_token=%3D%3D%24zC5Y0j28kzpHLZdL%249A9EZ%2BahTgy2/oiAbH4yIwIx7LTgi%2BuFNZ8vZP0vmgk6lWR1uzjPMQHqT7U9tvfDiQzapGkawcfzuolpPcokjACpi9quRh4RRpcRWkBNsljAkIG3RI0c2uABZq2csKYGvImFBAXQKK%2BmrP%2BFshrFa6bLBfG5QObsk/T%2BPzLpmyB1Xl2a806GcRJHnBla04CzWQVnzlPCOc2kdXfTFlqj6SIk2F%2BCoCbRQmSdJ4X6PBloP3YyfiGEoBe78jvuEiTeFtg%3D%24%3D%3D",
+                    "method": "POST",
+                    "submit": "payload",
+                    "class": "export"
+                }
+            },
+            {
+                "export_bulkload_template": {
+                    "support_async": false,
+                    "href": "/api/relation/Subscriber/export_bulkload_template/?hierarchy=551cbc26acba0a1691197134",
+                    "title": "Export Bulk Load Template",
+                    "method": "POST",
+                    "class": "bulkload_template"
+                }
+            },
+            {
+                "list": {
+                    "support_async": false,
+                    "href": "/api/relation/Subscriber/?hierarchy=551cbc26acba0a1691197134",
+                    "title": "List",
+                    "method": "GET",
+                    "class": "list"
+                }
+            },
+            {
+                "help": {
+                    "support_async": false,
+                    "href": "/api/relation/Subscriber/help?hierarchy=551cbc26acba0a1691197134",
+                    "title": "Help",
+                    "method": "GET",
+                    "class": "help"
+                }
+            }
+        ],
+        "summary_attrs": [
+            {
+                "name": "userid",
+                "title": "Userid"
+            },
+            {
+                "name": "firstName",
+                "title": "First Name"
+            },
+            {
+                "name": "lastName",
+                "title": "Last Name"
+            },
+            {
+                "name": "department",
+                "title": "Department"
+            },
+            {
+                "name": "associatedDevices.device",
+                "title": "Device"
+            },
+            {
+                "name": "phoneProfiles.profileName",
+                "title": "Profile Name"
+            }
+        ],
+        "business_key": {},
+        "tagged_versions": []
+    },
+    "resources": [
+        {
+            "pkid": "599f8735acba0ae6b4415790",
+            "meta": {
+                "title": "Network Administrator",
+                "cached": true,
+                "tags": [],
+                "schema_version": "10.0",
+                "summary": "false",
+                "references": {
+                    "parent": [
+                        {
+                            "pkid": "551dbc29acba0a169119a44e",
+                            "href": "/api/data/HierarchyNode/551dbc29acba0a169119a44e"
+                        }
+                    ],
+                    "self": [
+                        {
+                            "pkid": "599f8735acba0ae6b4415790",
+                            "href": "/api/relation/Subscriber/599f8735acba0ae6b4415790/"
+                        }
+                    ],
+                    "foreign_key": [],
+                    "owner": [
+                        {
+                            "pkid": ""
+                        }
+                    ],
+                    "device": [
+                        {
+                            "pkid": "551db747acba0a16911974d1",
+                            "href": "/api/v0/data/CallManager/551db747acba0a16911974d1"
+                        }
+                    ],
+                    "children": []
+                },
+                "api_version": "11.5.1",
+                "model_type": "relation/Subscriber",
+                "path": [
+                    "1c0ffee2c0deab00da595101",
+                    "545ab6b5acba0a18a0d3a86e",
+                    "551cbc26acba0a1691197134",
+                    "551cc09bacba0a1691197285",
+                    "551dbc29acba0a169119a44e",
+                    "599f8735acba0ae6b4415790"
+                ],
+                "actions": [
+                    {
+                        "update": {
+                            "href": "/api/relation/Subscriber/599f8735acba0ae6b4415790/",
+                            "title": "Modify",
+                            "support_async": true,
+                            "method": "PUT",
+                            "class": "update"
+                        }
+                    },
+                    {
+                        "remove": {
+                            "support_async": true,
+                            "href": "/api/relation/Subscriber/599f8735acba0ae6b4415790/",
+                            "title": "Delete",
+                            "method": "DELETE",
+                            "class": "delete"
+                        }
+                    },
+                    {
+                        "move": {
+                            "title": "Move",
+                            "support_async": true,
+                            "class": "move",
+                            "href": "/api/tool/DataMove/599f8735acba0ae6b4415790/?model_type=relation/Subscriber",
+                            "method": "POST",
+                            "view": "/api/tool/DataMove/"
+                        }
+                    },
+                    {
+                        "export": {
+                            "href": "/api/relation/Subscriber/599f8735acba0ae6b4415790/export/",
+                            "title": "Export",
+                            "support_async": false,
+                            "view": "/api/view/ExportData/add/",
+                            "method": "GET",
+                            "submit": "payload",
+                            "class": "export"
+                        }
+                    },
+                    {
+                        "get": {
+                            "support_async": false,
+                            "href": "/api/relation/Subscriber/599f8735acba0ae6b4415790/",
+                            "title": "Get",
+                            "method": "GET",
+                            "class": "get"
+                        }
+                    },
+                    {
+                        "help": {
+                            "support_async": false,
+                            "href": "/api/relation/Subscriber/599f8735acba0ae6b4415790/help",
+                            "title": "Help",
+                            "method": "GET",
+                            "class": "help"
+                        }
+                    },
+                    {
+                        "AddCUCUser": {
+                            "href": "/api/relation/Subscriber/599f8735acba0ae6b4415790/+AddCUCUser/",
+                            "title": "Add Cuc User",
+                            "support_async": true,
+                            "method": "POST",
+                            "class": "custom"
+                        }
+                    },
+                    {
+                        "AddDeviceProfile": {
+                            "href": "/api/relation/Subscriber/599f8735acba0ae6b4415790/+AddDeviceProfile/",
+                            "title": "Add Device Profile",
+                            "support_async": true,
+                            "method": "POST",
+                            "class": "custom"
+                        }
+                    },
+                    {
+                        "AddMobileIdentity": {
+                            "href": "/api/relation/Subscriber/599f8735acba0ae6b4415790/+AddMobileIdentity/",
+                            "title": "Add Mobile Identity",
+                            "support_async": true,
+                            "method": "POST",
+                            "class": "custom"
+                        }
+                    },
+                    {
+                        "AddPhone": {
+                            "href": "/api/relation/Subscriber/599f8735acba0ae6b4415790/+AddPhone/",
+                            "title": "Add Phone",
+                            "support_async": true,
+                            "method": "POST",
+                            "class": "custom"
+                        }
+                    },
+                    {
+                        "AddRemoteDestinationPhone": {
+                            "href": "/api/relation/Subscriber/599f8735acba0ae6b4415790/+AddRemoteDestinationPhone/",
+                            "title": "Add Remote Destination Phone",
+                            "support_async": true,
+                            "method": "POST",
+                            "class": "custom"
+                        }
+                    },
+                    {
+                        "AddRemoteDestinationProfile": {
+                            "href": "/api/relation/Subscriber/599f8735acba0ae6b4415790/+AddRemoteDestinationProfile/",
+                            "title": "Add Remote Destination Profile",
+                            "support_async": true,
+                            "method": "POST",
+                            "class": "custom"
+                        }
+                    },
+                    {
+                        "AddRemoteDestinationRDP": {
+                            "href": "/api/relation/Subscriber/599f8735acba0ae6b4415790/+AddRemoteDestinationRDP/",
+                            "title": "Add Remote Destination Rdp",
+                            "support_async": true,
+                            "method": "POST",
+                            "class": "custom"
+                        }
+                    },
+                    {
+                        "AddWebExUser": {
+                            "href": "/api/relation/Subscriber/599f8735acba0ae6b4415790/+AddWebExUser/",
+                            "title": "Add Web Ex User",
+                            "support_async": true,
+                            "method": "POST",
+                            "class": "custom"
+                        }
+                    },
+                    {
+                        "DelCUCUser": {
+                            "href": "/api/relation/Subscriber/599f8735acba0ae6b4415790/+DelCUCUser/",
+                            "title": "Del Cuc User",
+                            "support_async": true,
+                            "method": "POST",
+                            "class": "custom"
+                        }
+                    },
+                    {
+                        "DelDeviceProfile": {
+                            "href": "/api/relation/Subscriber/599f8735acba0ae6b4415790/+DelDeviceProfile/",
+                            "title": "Del Device Profile",
+                            "support_async": true,
+                            "method": "POST",
+                            "class": "custom"
+                        }
+                    },
+                    {
+                        "DelMobileIdentity": {
+                            "href": "/api/relation/Subscriber/599f8735acba0ae6b4415790/+DelMobileIdentity/",
+                            "title": "Del Mobile Identity",
+                            "support_async": true,
+                            "method": "POST",
+                            "class": "custom"
+                        }
+                    },
+                    {
+                        "DelPhone": {
+                            "href": "/api/relation/Subscriber/599f8735acba0ae6b4415790/+DelPhone/",
+                            "title": "Del Phone",
+                            "support_async": true,
+                            "method": "POST",
+                            "class": "custom"
+                        }
+                    },
+                    {
+                        "DelRemoteDestinationPhone": {
+                            "href": "/api/relation/Subscriber/599f8735acba0ae6b4415790/+DelRemoteDestinationPhone/",
+                            "title": "Del Remote Destination Phone",
+                            "support_async": true,
+                            "method": "POST",
+                            "class": "custom"
+                        }
+                    },
+                    {
+                        "DelRemoteDestinationProfile": {
+                            "href": "/api/relation/Subscriber/599f8735acba0ae6b4415790/+DelRemoteDestinationProfile/",
+                            "title": "Del Remote Destination Profile",
+                            "support_async": true,
+                            "method": "POST",
+                            "class": "custom"
+                        }
+                    },
+                    {
+                        "DelRemoteDestinationRDP": {
+                            "href": "/api/relation/Subscriber/599f8735acba0ae6b4415790/+DelRemoteDestinationRDP/",
+                            "title": "Del Remote Destination Rdp",
+                            "support_async": true,
+                            "method": "POST",
+                            "class": "custom"
+                        }
+                    },
+                    {
+                        "DelWebExUser": {
+                            "href": "/api/relation/Subscriber/599f8735acba0ae6b4415790/+DelWebExUser/",
+                            "title": "Del Web Ex User",
+                            "support_async": true,
+                            "method": "POST",
+                            "class": "custom"
+                        }
+                    }
+                ],
+                "summary_attrs": [
+                    {
+                        "name": "userid",
+                        "title": "Userid"
+                    },
+                    {
+                        "name": "firstName",
+                        "title": "First Name"
+                    },
+                    {
+                        "name": "lastName",
+                        "title": "Last Name"
+                    },
+                    {
+                        "name": "department",
+                        "title": "Department"
+                    },
+                    {
+                        "name": "associatedDevices.device",
+                        "title": "Controlled Devices"
+                    },
+                    {
+                        "name": "phoneProfiles.profileName",
+                        "title": "Controlled Profiles"
+                    },
+                    {
+                        "allow_filtering": false,
+                        "name": "hierarchy_path",
+                        "title": "Hierarchy"
+                    },
+                    {
+                        "allow_filtering": false,
+                        "name": "summary_device",
+                        "title": "Device"
+                    }
+                ],
+                "business_key": {},
+                "tagged_versions": []
+            },
+            "data": {
+                "associatedPc": null,
+                "convertUserAccount": "lfad1",
+                "directoryUri": "AllenGreen@liquidfinancial.com",
+                "enableMobileVoiceAccess": false,
+                "imAndPresenceEnable": false,
+                "calendarPresence": false,
+                "associatedDevices": null,
+                "manager": null,
+                "ipccExtension": null,
+                "homeCluster": true,
+                "maxDeskPickupWaitTime": 10000,
+                "primaryExtension": null,
+                "summary_device": "Dedicated CUCM, 198.18.1.13, 8443, hcs.DCloudSP.Liquid Financial",
+                "title": "Network Administrator",
+                "middleName": null,
+                "phoneProfiles": null,
+                "homeNumber": null,
+                "department": "IT",
+                "digestCredentials": null,
+                "associatedGroups": null,
+                "status": 1,
+                "enableMobility": true,
+                "enableEmcc": false,
+                "subscribeCallingSearchSpaceName": null,
+                "hierarchy_path": "sys.hcs.DCloudSP.Liquid Financial.LFDFW",
+                "passwordCredentials": {
+                    "pwdCredUserMustChange": true,
+                    "pwdCredUserCantChange": false,
+                    "pwdCredTimeChanged": "August 24, 2017 19:11:00 PDT",
+                    "pwdCredTimeAdminLockout": null,
+                    "pwdCredPolicyName": "Default Credential Policy",
+                    "pwdCredLockedByAdministrator": false,
+                    "pwdCredDoesNotExpire": false
+                },
+                "userLocale": null,
+                "enableCti": true,
+                "mailid": "AllenGreen@liquidfinancial.com",
+                "pagerNumber": null,
+                "nameDialing": "GreenAllen",
+                "telephoneNumber": "5807935",
+                "mobileNumber": null,
+                "presenceGroupName": "Standard Presence group",
+                "firstName": "Allen",
+                "lastName": "Green",
+                "serviceProfile": "LFUCServiceProf",
+                "userid": "agreen",
+                "ctiControlledDeviceProfiles": null,
+                "extensionsInfo": null,
+                "userIdentity": "AllenGreen@liquidfinancial.com",
+                "ldapDirectoryName": "lfad1",
+                "remoteDestinationLimit": 4,
+                "lineAppearanceAssociationForPresences": null,
+                "pinCredentials": {
+                    "pinCredLockedByAdministrator": false,
+                    "pinCredTimeAdminLockout": null,
+                    "pinCredDoesNotExpire": true,
+                    "pinCredPolicyName": "Default Credential Policy",
+                    "pinCredUserCantChange": false,
+                    "pinCredTimeChanged": false,
+                    "pinCredUserMustChange": false
+                },
+                "userProfile": null
+            }
+        },
+        {
+            "pkid": "599f891bacba0ae6b44165bb",
+            "meta": {
+                "title": "IT Engineer",
+                "cached": true,
+                "tags": [],
+                "schema_version": "10.0",
+                "summary": "false",
+                "references": {
+                    "parent": [
+                        {
+                            "pkid": "551dbc29acba0a169119a44e",
+                            "href": "/api/data/HierarchyNode/551dbc29acba0a169119a44e"
+                        }
+                    ],
+                    "self": [
+                        {
+                            "pkid": "599f891bacba0ae6b44165bb",
+                            "href": "/api/relation/Subscriber/599f891bacba0ae6b44165bb/"
+                        }
+                    ],
+                    "foreign_key": [],
+                    "owner": [
+                        {
+                            "pkid": ""
+                        }
+                    ],
+                    "device": [
+                        {
+                            "pkid": "551db747acba0a16911974d1",
+                            "href": "/api/v0/data/CallManager/551db747acba0a16911974d1"
+                        }
+                    ],
+                    "children": []
+                },
+                "api_version": "11.5.1",
+                "model_type": "relation/Subscriber",
+                "path": [
+                    "1c0ffee2c0deab00da595101",
+                    "545ab6b5acba0a18a0d3a86e",
+                    "551cbc26acba0a1691197134",
+                    "551cc09bacba0a1691197285",
+                    "551dbc29acba0a169119a44e",
+                    "599f891bacba0ae6b44165bb"
+                ],
+                "actions": [
+                    {
+                        "update": {
+                            "support_async": true,
+                            "class": "update",
+                            "href": "/api/relation/Subscriber/599f891bacba0ae6b44165bb/",
+                            "method": "PUT",
+                            "title": "Modify"
+                        }
+                    },
+                    {
+                        "remove": {
+                            "support_async": true,
+                            "class": "delete",
+                            "href": "/api/relation/Subscriber/599f891bacba0ae6b44165bb/",
+                            "method": "DELETE",
+                            "title": "Delete"
+                        }
+                    },
+                    {
+                        "move": {
+                            "title": "Move",
+                            "support_async": true,
+                            "class": "move",
+                            "href": "/api/tool/DataMove/599f891bacba0ae6b44165bb/?model_type=relation/Subscriber",
+                            "method": "POST",
+                            "view": "/api/tool/DataMove/"
+                        }
+                    },
+                    {
+                        "export": {
+                            "title": "Export",
+                            "support_async": false,
+                            "submit": "payload",
+                            "class": "export",
+                            "href": "/api/relation/Subscriber/599f891bacba0ae6b44165bb/export/",
+                            "method": "GET",
+                            "view": "/api/view/ExportData/add/"
+                        }
+                    },
+                    {
+                        "get": {
+                            "support_async": false,
+                            "class": "get",
+                            "href": "/api/relation/Subscriber/599f891bacba0ae6b44165bb/",
+                            "method": "GET",
+                            "title": "Get"
+                        }
+                    },
+                    {
+                        "help": {
+                            "support_async": false,
+                            "class": "help",
+                            "href": "/api/relation/Subscriber/599f891bacba0ae6b44165bb/help",
+                            "method": "GET",
+                            "title": "Help"
+                        }
+                    },
+                    {
+                        "AddCUCUser": {
+                            "support_async": true,
+                            "class": "custom",
+                            "href": "/api/relation/Subscriber/599f891bacba0ae6b44165bb/+AddCUCUser/",
+                            "method": "POST",
+                            "title": "Add Cuc User"
+                        }
+                    },
+                    {
+                        "AddDeviceProfile": {
+                            "support_async": true,
+                            "class": "custom",
+                            "href": "/api/relation/Subscriber/599f891bacba0ae6b44165bb/+AddDeviceProfile/",
+                            "method": "POST",
+                            "title": "Add Device Profile"
+                        }
+                    },
+                    {
+                        "AddMobileIdentity": {
+                            "support_async": true,
+                            "class": "custom",
+                            "href": "/api/relation/Subscriber/599f891bacba0ae6b44165bb/+AddMobileIdentity/",
+                            "method": "POST",
+                            "title": "Add Mobile Identity"
+                        }
+                    },
+                    {
+                        "AddPhone": {
+                            "support_async": true,
+                            "class": "custom",
+                            "href": "/api/relation/Subscriber/599f891bacba0ae6b44165bb/+AddPhone/",
+                            "method": "POST",
+                            "title": "Add Phone"
+                        }
+                    },
+                    {
+                        "AddRemoteDestinationPhone": {
+                            "support_async": true,
+                            "class": "custom",
+                            "href": "/api/relation/Subscriber/599f891bacba0ae6b44165bb/+AddRemoteDestinationPhone/",
+                            "method": "POST",
+                            "title": "Add Remote Destination Phone"
+                        }
+                    },
+                    {
+                        "AddRemoteDestinationProfile": {
+                            "support_async": true,
+                            "class": "custom",
+                            "href": "/api/relation/Subscriber/599f891bacba0ae6b44165bb/+AddRemoteDestinationProfile/",
+                            "method": "POST",
+                            "title": "Add Remote Destination Profile"
+                        }
+                    },
+                    {
+                        "AddRemoteDestinationRDP": {
+                            "support_async": true,
+                            "class": "custom",
+                            "href": "/api/relation/Subscriber/599f891bacba0ae6b44165bb/+AddRemoteDestinationRDP/",
+                            "method": "POST",
+                            "title": "Add Remote Destination Rdp"
+                        }
+                    },
+                    {
+                        "AddWebExUser": {
+                            "support_async": true,
+                            "class": "custom",
+                            "href": "/api/relation/Subscriber/599f891bacba0ae6b44165bb/+AddWebExUser/",
+                            "method": "POST",
+                            "title": "Add Web Ex User"
+                        }
+                    },
+                    {
+                        "DelCUCUser": {
+                            "support_async": true,
+                            "class": "custom",
+                            "href": "/api/relation/Subscriber/599f891bacba0ae6b44165bb/+DelCUCUser/",
+                            "method": "POST",
+                            "title": "Del Cuc User"
+                        }
+                    },
+                    {
+                        "DelDeviceProfile": {
+                            "support_async": true,
+                            "class": "custom",
+                            "href": "/api/relation/Subscriber/599f891bacba0ae6b44165bb/+DelDeviceProfile/",
+                            "method": "POST",
+                            "title": "Del Device Profile"
+                        }
+                    },
+                    {
+                        "DelMobileIdentity": {
+                            "support_async": true,
+                            "class": "custom",
+                            "href": "/api/relation/Subscriber/599f891bacba0ae6b44165bb/+DelMobileIdentity/",
+                            "method": "POST",
+                            "title": "Del Mobile Identity"
+                        }
+                    },
+                    {
+                        "DelPhone": {
+                            "support_async": true,
+                            "class": "custom",
+                            "href": "/api/relation/Subscriber/599f891bacba0ae6b44165bb/+DelPhone/",
+                            "method": "POST",
+                            "title": "Del Phone"
+                        }
+                    },
+                    {
+                        "DelRemoteDestinationPhone": {
+                            "support_async": true,
+                            "class": "custom",
+                            "href": "/api/relation/Subscriber/599f891bacba0ae6b44165bb/+DelRemoteDestinationPhone/",
+                            "method": "POST",
+                            "title": "Del Remote Destination Phone"
+                        }
+                    },
+                    {
+                        "DelRemoteDestinationProfile": {
+                            "support_async": true,
+                            "class": "custom",
+                            "href": "/api/relation/Subscriber/599f891bacba0ae6b44165bb/+DelRemoteDestinationProfile/",
+                            "method": "POST",
+                            "title": "Del Remote Destination Profile"
+                        }
+                    },
+                    {
+                        "DelRemoteDestinationRDP": {
+                            "support_async": true,
+                            "class": "custom",
+                            "href": "/api/relation/Subscriber/599f891bacba0ae6b44165bb/+DelRemoteDestinationRDP/",
+                            "method": "POST",
+                            "title": "Del Remote Destination Rdp"
+                        }
+                    },
+                    {
+                        "DelWebExUser": {
+                            "support_async": true,
+                            "class": "custom",
+                            "href": "/api/relation/Subscriber/599f891bacba0ae6b44165bb/+DelWebExUser/",
+                            "method": "POST",
+                            "title": "Del Web Ex User"
+                        }
+                    }
+                ],
+                "summary_attrs": [
+                    {
+                        "name": "userid",
+                        "title": "Userid"
+                    },
+                    {
+                        "name": "firstName",
+                        "title": "First Name"
+                    },
+                    {
+                        "name": "lastName",
+                        "title": "Last Name"
+                    },
+                    {
+                        "name": "department",
+                        "title": "Department"
+                    },
+                    {
+                        "name": "associatedDevices.device",
+                        "title": "Controlled Devices"
+                    },
+                    {
+                        "name": "phoneProfiles.profileName",
+                        "title": "Controlled Profiles"
+                    },
+                    {
+                        "allow_filtering": false,
+                        "name": "hierarchy_path",
+                        "title": "Hierarchy"
+                    },
+                    {
+                        "allow_filtering": false,
+                        "name": "summary_device",
+                        "title": "Device"
+                    }
+                ],
+                "business_key": {},
+                "tagged_versions": []
+            },
+            "data": {
+                "associatedPc": null,
+                "convertUserAccount": "lfad1",
+                "directoryUri": "AJSessa@liquidfinancial.com",
+                "enableMobileVoiceAccess": false,
+                "imAndPresenceEnable": false,
+                "calendarPresence": false,
+                "associatedDevices": null,
+                "manager": null,
+                "ipccExtension": null,
+                "homeCluster": true,
+                "maxDeskPickupWaitTime": 10000,
+                "primaryExtension": null,
+                "summary_device": "Dedicated CUCM, 198.18.1.13, 8443, hcs.DCloudSP.Liquid Financial",
+                "title": "IT Engineer",
+                "middleName": null,
+                "phoneProfiles": null,
+                "homeNumber": null,
+                "department": "IT",
+                "digestCredentials": null,
+                "associatedGroups": null,
+                "status": 1,
+                "enableMobility": true,
+                "enableEmcc": false,
+                "subscribeCallingSearchSpaceName": null,
+                "hierarchy_path": "sys.hcs.DCloudSP.Liquid Financial.LFDFW",
+                "passwordCredentials": {
+                    "pwdCredUserMustChange": true,
+                    "pwdCredUserCantChange": false,
+                    "pwdCredTimeChanged": "August 24, 2017 19:19:08 PDT",
+                    "pwdCredTimeAdminLockout": null,
+                    "pwdCredPolicyName": "Default Credential Policy",
+                    "pwdCredLockedByAdministrator": false,
+                    "pwdCredDoesNotExpire": false
+                },
+                "userLocale": null,
+                "enableCti": true,
+                "mailid": "AJSessa@liquidfinancial.com",
+                "pagerNumber": null,
+                "nameDialing": "SessaAJ",
+                "telephoneNumber": null,
+                "mobileNumber": null,
+                "presenceGroupName": "Standard Presence group",
+                "firstName": "AJ",
+                "lastName": "Sessa",
+                "serviceProfile": "LFUCServiceProf",
+                "userid": "asessa",
+                "ctiControlledDeviceProfiles": null,
+                "extensionsInfo": null,
+                "userIdentity": "AJSessa@liquidfinancial.com",
+                "ldapDirectoryName": "lfad1",
+                "remoteDestinationLimit": 4,
+                "lineAppearanceAssociationForPresences": null,
+                "pinCredentials": {
+                    "pinCredLockedByAdministrator": false,
+                    "pinCredTimeAdminLockout": null,
+                    "pinCredDoesNotExpire": true,
+                    "pinCredPolicyName": "Default Credential Policy",
+                    "pinCredUserCantChange": false,
+                    "pinCredTimeChanged": false,
+                    "pinCredUserMustChange": false
+                },
+                "userProfile": null
+            }
+        },
+        {
+            "pkid": "599f8930acba0ae6b4416a33",
+            "meta": {
+                "title": "Analyst",
+                "cached": true,
+                "tags": [],
+                "schema_version": "10.0",
+                "summary": "false",
+                "references": {
+                    "parent": [
+                        {
+                            "pkid": "551dbc29acba0a169119a44e",
+                            "href": "/api/data/HierarchyNode/551dbc29acba0a169119a44e"
+                        }
+                    ],
+                    "self": [
+                        {
+                            "pkid": "599f8930acba0ae6b4416a33",
+                            "href": "/api/relation/Subscriber/599f8930acba0ae6b4416a33/"
+                        }
+                    ],
+                    "foreign_key": [],
+                    "owner": [
+                        {
+                            "pkid": ""
+                        }
+                    ],
+                    "device": [
+                        {
+                            "pkid": "551db747acba0a16911974d1",
+                            "href": "/api/v0/data/CallManager/551db747acba0a16911974d1"
+                        }
+                    ],
+                    "children": []
+                },
+                "api_version": "11.5.1",
+                "model_type": "relation/Subscriber",
+                "path": [
+                    "1c0ffee2c0deab00da595101",
+                    "545ab6b5acba0a18a0d3a86e",
+                    "551cbc26acba0a1691197134",
+                    "551cc09bacba0a1691197285",
+                    "551dbc29acba0a169119a44e",
+                    "599f8930acba0ae6b4416a33"
+                ],
+                "actions": [
+                    {
+                        "update": {
+                            "support_async": true,
+                            "href": "/api/relation/Subscriber/599f8930acba0ae6b4416a33/",
+                            "title": "Modify",
+                            "class": "update",
+                            "method": "PUT"
+                        }
+                    },
+                    {
+                        "remove": {
+                            "support_async": true,
+                            "href": "/api/relation/Subscriber/599f8930acba0ae6b4416a33/",
+                            "title": "Delete",
+                            "class": "delete",
+                            "method": "DELETE"
+                        }
+                    },
+                    {
+                        "move": {
+                            "title": "Move",
+                            "support_async": true,
+                            "class": "move",
+                            "href": "/api/tool/DataMove/599f8930acba0ae6b4416a33/?model_type=relation/Subscriber",
+                            "method": "POST",
+                            "view": "/api/tool/DataMove/"
+                        }
+                    },
+                    {
+                        "export": {
+                            "title": "Export",
+                            "support_async": false,
+                            "submit": "payload",
+                            "class": "export",
+                            "href": "/api/relation/Subscriber/599f8930acba0ae6b4416a33/export/",
+                            "method": "GET",
+                            "view": "/api/view/ExportData/add/"
+                        }
+                    },
+                    {
+                        "get": {
+                            "support_async": false,
+                            "href": "/api/relation/Subscriber/599f8930acba0ae6b4416a33/",
+                            "title": "Get",
+                            "class": "get",
+                            "method": "GET"
+                        }
+                    },
+                    {
+                        "help": {
+                            "support_async": false,
+                            "href": "/api/relation/Subscriber/599f8930acba0ae6b4416a33/help",
+                            "title": "Help",
+                            "class": "help",
+                            "method": "GET"
+                        }
+                    },
+                    {
+                        "AddCUCUser": {
+                            "support_async": true,
+                            "href": "/api/relation/Subscriber/599f8930acba0ae6b4416a33/+AddCUCUser/",
+                            "title": "Add Cuc User",
+                            "class": "custom",
+                            "method": "POST"
+                        }
+                    },
+                    {
+                        "AddDeviceProfile": {
+                            "support_async": true,
+                            "href": "/api/relation/Subscriber/599f8930acba0ae6b4416a33/+AddDeviceProfile/",
+                            "title": "Add Device Profile",
+                            "class": "custom",
+                            "method": "POST"
+                        }
+                    },
+                    {
+                        "AddMobileIdentity": {
+                            "support_async": true,
+                            "href": "/api/relation/Subscriber/599f8930acba0ae6b4416a33/+AddMobileIdentity/",
+                            "title": "Add Mobile Identity",
+                            "class": "custom",
+                            "method": "POST"
+                        }
+                    },
+                    {
+                        "AddPhone": {
+                            "support_async": true,
+                            "href": "/api/relation/Subscriber/599f8930acba0ae6b4416a33/+AddPhone/",
+                            "title": "Add Phone",
+                            "class": "custom",
+                            "method": "POST"
+                        }
+                    },
+                    {
+                        "AddRemoteDestinationPhone": {
+                            "support_async": true,
+                            "href": "/api/relation/Subscriber/599f8930acba0ae6b4416a33/+AddRemoteDestinationPhone/",
+                            "title": "Add Remote Destination Phone",
+                            "class": "custom",
+                            "method": "POST"
+                        }
+                    },
+                    {
+                        "AddRemoteDestinationProfile": {
+                            "support_async": true,
+                            "href": "/api/relation/Subscriber/599f8930acba0ae6b4416a33/+AddRemoteDestinationProfile/",
+                            "title": "Add Remote Destination Profile",
+                            "class": "custom",
+                            "method": "POST"
+                        }
+                    },
+                    {
+                        "AddRemoteDestinationRDP": {
+                            "support_async": true,
+                            "href": "/api/relation/Subscriber/599f8930acba0ae6b4416a33/+AddRemoteDestinationRDP/",
+                            "title": "Add Remote Destination Rdp",
+                            "class": "custom",
+                            "method": "POST"
+                        }
+                    },
+                    {
+                        "AddWebExUser": {
+                            "support_async": true,
+                            "href": "/api/relation/Subscriber/599f8930acba0ae6b4416a33/+AddWebExUser/",
+                            "title": "Add Web Ex User",
+                            "class": "custom",
+                            "method": "POST"
+                        }
+                    },
+                    {
+                        "DelCUCUser": {
+                            "support_async": true,
+                            "href": "/api/relation/Subscriber/599f8930acba0ae6b4416a33/+DelCUCUser/",
+                            "title": "Del Cuc User",
+                            "class": "custom",
+                            "method": "POST"
+                        }
+                    },
+                    {
+                        "DelDeviceProfile": {
+                            "support_async": true,
+                            "href": "/api/relation/Subscriber/599f8930acba0ae6b4416a33/+DelDeviceProfile/",
+                            "title": "Del Device Profile",
+                            "class": "custom",
+                            "method": "POST"
+                        }
+                    },
+                    {
+                        "DelMobileIdentity": {
+                            "support_async": true,
+                            "href": "/api/relation/Subscriber/599f8930acba0ae6b4416a33/+DelMobileIdentity/",
+                            "title": "Del Mobile Identity",
+                            "class": "custom",
+                            "method": "POST"
+                        }
+                    },
+                    {
+                        "DelPhone": {
+                            "support_async": true,
+                            "href": "/api/relation/Subscriber/599f8930acba0ae6b4416a33/+DelPhone/",
+                            "title": "Del Phone",
+                            "class": "custom",
+                            "method": "POST"
+                        }
+                    },
+                    {
+                        "DelRemoteDestinationPhone": {
+                            "support_async": true,
+                            "href": "/api/relation/Subscriber/599f8930acba0ae6b4416a33/+DelRemoteDestinationPhone/",
+                            "title": "Del Remote Destination Phone",
+                            "class": "custom",
+                            "method": "POST"
+                        }
+                    },
+                    {
+                        "DelRemoteDestinationProfile": {
+                            "support_async": true,
+                            "href": "/api/relation/Subscriber/599f8930acba0ae6b4416a33/+DelRemoteDestinationProfile/",
+                            "title": "Del Remote Destination Profile",
+                            "class": "custom",
+                            "method": "POST"
+                        }
+                    },
+                    {
+                        "DelRemoteDestinationRDP": {
+                            "support_async": true,
+                            "href": "/api/relation/Subscriber/599f8930acba0ae6b4416a33/+DelRemoteDestinationRDP/",
+                            "title": "Del Remote Destination Rdp",
+                            "class": "custom",
+                            "method": "POST"
+                        }
+                    },
+                    {
+                        "DelWebExUser": {
+                            "support_async": true,
+                            "href": "/api/relation/Subscriber/599f8930acba0ae6b4416a33/+DelWebExUser/",
+                            "title": "Del Web Ex User",
+                            "class": "custom",
+                            "method": "POST"
+                        }
+                    }
+                ],
+                "summary_attrs": [
+                    {
+                        "name": "userid",
+                        "title": "Userid"
+                    },
+                    {
+                        "name": "firstName",
+                        "title": "First Name"
+                    },
+                    {
+                        "name": "lastName",
+                        "title": "Last Name"
+                    },
+                    {
+                        "name": "department",
+                        "title": "Department"
+                    },
+                    {
+                        "name": "associatedDevices.device",
+                        "title": "Controlled Devices"
+                    },
+                    {
+                        "name": "phoneProfiles.profileName",
+                        "title": "Controlled Profiles"
+                    },
+                    {
+                        "allow_filtering": false,
+                        "name": "hierarchy_path",
+                        "title": "Hierarchy"
+                    },
+                    {
+                        "allow_filtering": false,
+                        "name": "summary_device",
+                        "title": "Device"
+                    }
+                ],
+                "business_key": {},
+                "tagged_versions": []
+            },
+            "data": {
+                "associatedPc": null,
+                "convertUserAccount": "lfad1",
+                "directoryUri": "ChrisWard@liquidfinancial.com",
+                "enableMobileVoiceAccess": false,
+                "imAndPresenceEnable": false,
+                "calendarPresence": false,
+                "associatedDevices": null,
+                "manager": null,
+                "ipccExtension": null,
+                "homeCluster": true,
+                "maxDeskPickupWaitTime": 10000,
+                "primaryExtension": null,
+                "summary_device": "Dedicated CUCM, 198.18.1.13, 8443, hcs.DCloudSP.Liquid Financial",
+                "title": "Analyst",
+                "middleName": null,
+                "phoneProfiles": null,
+                "homeNumber": null,
+                "department": "Human Resources",
+                "digestCredentials": null,
+                "associatedGroups": null,
+                "status": 1,
+                "enableMobility": true,
+                "enableEmcc": false,
+                "subscribeCallingSearchSpaceName": null,
+                "hierarchy_path": "sys.hcs.DCloudSP.Liquid Financial.LFDFW",
+                "passwordCredentials": {
+                    "pwdCredUserMustChange": true,
+                    "pwdCredUserCantChange": false,
+                    "pwdCredTimeChanged": "August 24, 2017 19:19:28 PDT",
+                    "pwdCredTimeAdminLockout": null,
+                    "pwdCredPolicyName": "Default Credential Policy",
+                    "pwdCredLockedByAdministrator": false,
+                    "pwdCredDoesNotExpire": false
+                },
+                "userLocale": null,
+                "enableCti": true,
+                "mailid": "ChrisWard@liquidfinancial.com",
+                "pagerNumber": null,
+                "nameDialing": "WardChris",
+                "telephoneNumber": "5807936",
+                "mobileNumber": null,
+                "presenceGroupName": "Standard Presence group",
+                "firstName": "Chris",
+                "lastName": "Ward",
+                "serviceProfile": "LFUCServiceProf",
+                "userid": "cward",
+                "ctiControlledDeviceProfiles": null,
+                "extensionsInfo": null,
+                "userIdentity": "ChrisWard@liquidfinancial.com",
+                "ldapDirectoryName": "lfad1",
+                "remoteDestinationLimit": 4,
+                "lineAppearanceAssociationForPresences": null,
+                "pinCredentials": {
+                    "pinCredLockedByAdministrator": false,
+                    "pinCredTimeAdminLockout": null,
+                    "pinCredDoesNotExpire": true,
+                    "pinCredPolicyName": "Default Credential Policy",
+                    "pinCredUserCantChange": false,
+                    "pinCredTimeChanged": false,
+                    "pinCredUserMustChange": false
+                },
+                "userProfile": null
+            }
+        },
+        {
+            "pkid": "599f8813acba0ae6b4416100",
+            "meta": {
+                "title": "System Admin",
+                "cached": true,
+                "tags": [],
+                "schema_version": "10.0",
+                "summary": "false",
+                "references": {
+                    "parent": [
+                        {
+                            "pkid": "551dbc29acba0a169119a44e",
+                            "href": "/api/data/HierarchyNode/551dbc29acba0a169119a44e"
+                        }
+                    ],
+                    "self": [
+                        {
+                            "pkid": "599f8813acba0ae6b4416100",
+                            "href": "/api/relation/Subscriber/599f8813acba0ae6b4416100/"
+                        }
+                    ],
+                    "foreign_key": [],
+                    "owner": [
+                        {
+                            "pkid": ""
+                        }
+                    ],
+                    "device": [
+                        {
+                            "pkid": "551db747acba0a16911974d1",
+                            "href": "/api/v0/data/CallManager/551db747acba0a16911974d1"
+                        }
+                    ],
+                    "children": []
+                },
+                "api_version": "11.5.1",
+                "model_type": "relation/Subscriber",
+                "path": [
+                    "1c0ffee2c0deab00da595101",
+                    "545ab6b5acba0a18a0d3a86e",
+                    "551cbc26acba0a1691197134",
+                    "551cc09bacba0a1691197285",
+                    "551dbc29acba0a169119a44e",
+                    "599f8813acba0ae6b4416100"
+                ],
+                "actions": [
+                    {
+                        "update": {
+                            "support_async": true,
+                            "method": "PUT",
+                            "href": "/api/relation/Subscriber/599f8813acba0ae6b4416100/",
+                            "class": "update",
+                            "title": "Modify"
+                        }
+                    },
+                    {
+                        "remove": {
+                            "support_async": true,
+                            "method": "DELETE",
+                            "href": "/api/relation/Subscriber/599f8813acba0ae6b4416100/",
+                            "class": "delete",
+                            "title": "Delete"
+                        }
+                    },
+                    {
+                        "move": {
+                            "title": "Move",
+                            "support_async": true,
+                            "class": "move",
+                            "href": "/api/tool/DataMove/599f8813acba0ae6b4416100/?model_type=relation/Subscriber",
+                            "method": "POST",
+                            "view": "/api/tool/DataMove/"
+                        }
+                    },
+                    {
+                        "export": {
+                            "title": "Export",
+                            "support_async": false,
+                            "submit": "payload",
+                            "class": "export",
+                            "href": "/api/relation/Subscriber/599f8813acba0ae6b4416100/export/",
+                            "method": "GET",
+                            "view": "/api/view/ExportData/add/"
+                        }
+                    },
+                    {
+                        "get": {
+                            "support_async": false,
+                            "method": "GET",
+                            "href": "/api/relation/Subscriber/599f8813acba0ae6b4416100/",
+                            "class": "get",
+                            "title": "Get"
+                        }
+                    },
+                    {
+                        "help": {
+                            "support_async": false,
+                            "method": "GET",
+                            "href": "/api/relation/Subscriber/599f8813acba0ae6b4416100/help",
+                            "class": "help",
+                            "title": "Help"
+                        }
+                    },
+                    {
+                        "AddCUCUser": {
+                            "support_async": true,
+                            "method": "POST",
+                            "href": "/api/relation/Subscriber/599f8813acba0ae6b4416100/+AddCUCUser/",
+                            "class": "custom",
+                            "title": "Add Cuc User"
+                        }
+                    },
+                    {
+                        "AddDeviceProfile": {
+                            "support_async": true,
+                            "method": "POST",
+                            "href": "/api/relation/Subscriber/599f8813acba0ae6b4416100/+AddDeviceProfile/",
+                            "class": "custom",
+                            "title": "Add Device Profile"
+                        }
+                    },
+                    {
+                        "AddMobileIdentity": {
+                            "support_async": true,
+                            "method": "POST",
+                            "href": "/api/relation/Subscriber/599f8813acba0ae6b4416100/+AddMobileIdentity/",
+                            "class": "custom",
+                            "title": "Add Mobile Identity"
+                        }
+                    },
+                    {
+                        "AddPhone": {
+                            "support_async": true,
+                            "method": "POST",
+                            "href": "/api/relation/Subscriber/599f8813acba0ae6b4416100/+AddPhone/",
+                            "class": "custom",
+                            "title": "Add Phone"
+                        }
+                    },
+                    {
+                        "AddRemoteDestinationPhone": {
+                            "support_async": true,
+                            "method": "POST",
+                            "href": "/api/relation/Subscriber/599f8813acba0ae6b4416100/+AddRemoteDestinationPhone/",
+                            "class": "custom",
+                            "title": "Add Remote Destination Phone"
+                        }
+                    },
+                    {
+                        "AddRemoteDestinationProfile": {
+                            "support_async": true,
+                            "method": "POST",
+                            "href": "/api/relation/Subscriber/599f8813acba0ae6b4416100/+AddRemoteDestinationProfile/",
+                            "class": "custom",
+                            "title": "Add Remote Destination Profile"
+                        }
+                    },
+                    {
+                        "AddRemoteDestinationRDP": {
+                            "support_async": true,
+                            "method": "POST",
+                            "href": "/api/relation/Subscriber/599f8813acba0ae6b4416100/+AddRemoteDestinationRDP/",
+                            "class": "custom",
+                            "title": "Add Remote Destination Rdp"
+                        }
+                    },
+                    {
+                        "AddWebExUser": {
+                            "support_async": true,
+                            "method": "POST",
+                            "href": "/api/relation/Subscriber/599f8813acba0ae6b4416100/+AddWebExUser/",
+                            "class": "custom",
+                            "title": "Add Web Ex User"
+                        }
+                    },
+                    {
+                        "DelCUCUser": {
+                            "support_async": true,
+                            "method": "POST",
+                            "href": "/api/relation/Subscriber/599f8813acba0ae6b4416100/+DelCUCUser/",
+                            "class": "custom",
+                            "title": "Del Cuc User"
+                        }
+                    },
+                    {
+                        "DelDeviceProfile": {
+                            "support_async": true,
+                            "method": "POST",
+                            "href": "/api/relation/Subscriber/599f8813acba0ae6b4416100/+DelDeviceProfile/",
+                            "class": "custom",
+                            "title": "Del Device Profile"
+                        }
+                    },
+                    {
+                        "DelMobileIdentity": {
+                            "support_async": true,
+                            "method": "POST",
+                            "href": "/api/relation/Subscriber/599f8813acba0ae6b4416100/+DelMobileIdentity/",
+                            "class": "custom",
+                            "title": "Del Mobile Identity"
+                        }
+                    },
+                    {
+                        "DelPhone": {
+                            "support_async": true,
+                            "method": "POST",
+                            "href": "/api/relation/Subscriber/599f8813acba0ae6b4416100/+DelPhone/",
+                            "class": "custom",
+                            "title": "Del Phone"
+                        }
+                    },
+                    {
+                        "DelRemoteDestinationPhone": {
+                            "support_async": true,
+                            "method": "POST",
+                            "href": "/api/relation/Subscriber/599f8813acba0ae6b4416100/+DelRemoteDestinationPhone/",
+                            "class": "custom",
+                            "title": "Del Remote Destination Phone"
+                        }
+                    },
+                    {
+                        "DelRemoteDestinationProfile": {
+                            "support_async": true,
+                            "method": "POST",
+                            "href": "/api/relation/Subscriber/599f8813acba0ae6b4416100/+DelRemoteDestinationProfile/",
+                            "class": "custom",
+                            "title": "Del Remote Destination Profile"
+                        }
+                    },
+                    {
+                        "DelRemoteDestinationRDP": {
+                            "support_async": true,
+                            "method": "POST",
+                            "href": "/api/relation/Subscriber/599f8813acba0ae6b4416100/+DelRemoteDestinationRDP/",
+                            "class": "custom",
+                            "title": "Del Remote Destination Rdp"
+                        }
+                    },
+                    {
+                        "DelWebExUser": {
+                            "support_async": true,
+                            "method": "POST",
+                            "href": "/api/relation/Subscriber/599f8813acba0ae6b4416100/+DelWebExUser/",
+                            "class": "custom",
+                            "title": "Del Web Ex User"
+                        }
+                    }
+                ],
+                "summary_attrs": [
+                    {
+                        "name": "userid",
+                        "title": "Userid"
+                    },
+                    {
+                        "name": "firstName",
+                        "title": "First Name"
+                    },
+                    {
+                        "name": "lastName",
+                        "title": "Last Name"
+                    },
+                    {
+                        "name": "department",
+                        "title": "Department"
+                    },
+                    {
+                        "name": "associatedDevices.device",
+                        "title": "Controlled Devices"
+                    },
+                    {
+                        "name": "phoneProfiles.profileName",
+                        "title": "Controlled Profiles"
+                    },
+                    {
+                        "allow_filtering": false,
+                        "name": "hierarchy_path",
+                        "title": "Hierarchy"
+                    },
+                    {
+                        "allow_filtering": false,
+                        "name": "summary_device",
+                        "title": "Device"
+                    }
+                ],
+                "business_key": {},
+                "tagged_versions": []
+            },
+            "data": {
+                "associatedPc": null,
+                "convertUserAccount": "lfad1",
+                "directoryUri": "GregMiglucci@liquidfinancial.com",
+                "enableMobileVoiceAccess": false,
+                "imAndPresenceEnable": false,
+                "calendarPresence": false,
+                "associatedDevices": null,
+                "manager": null,
+                "ipccExtension": null,
+                "homeCluster": true,
+                "maxDeskPickupWaitTime": 10000,
+                "primaryExtension": null,
+                "summary_device": "Dedicated CUCM, 198.18.1.13, 8443, hcs.DCloudSP.Liquid Financial",
+                "title": "System Admin",
+                "middleName": null,
+                "phoneProfiles": null,
+                "homeNumber": null,
+                "department": "IT",
+                "digestCredentials": null,
+                "associatedGroups": null,
+                "status": 1,
+                "enableMobility": true,
+                "enableEmcc": false,
+                "subscribeCallingSearchSpaceName": null,
+                "hierarchy_path": "sys.hcs.DCloudSP.Liquid Financial.LFDFW",
+                "passwordCredentials": {
+                    "pwdCredUserMustChange": true,
+                    "pwdCredUserCantChange": false,
+                    "pwdCredTimeChanged": "August 24, 2017 19:14:43 PDT",
+                    "pwdCredTimeAdminLockout": null,
+                    "pwdCredPolicyName": "Default Credential Policy",
+                    "pwdCredLockedByAdministrator": false,
+                    "pwdCredDoesNotExpire": false
+                },
+                "userLocale": null,
+                "enableCti": true,
+                "mailid": "GregMiglucci@liquidfinancial.com",
+                "pagerNumber": null,
+                "nameDialing": "MiglucciGreg",
+                "telephoneNumber": "5807931",
+                "mobileNumber": null,
+                "presenceGroupName": "Standard Presence group",
+                "firstName": "Greg",
+                "lastName": "Miglucci",
+                "serviceProfile": "LFUCServiceProf",
+                "userid": "gmiglucci",
+                "ctiControlledDeviceProfiles": null,
+                "extensionsInfo": null,
+                "userIdentity": "GregMiglucci@liquidfinancial.com",
+                "ldapDirectoryName": "lfad1",
+                "remoteDestinationLimit": 4,
+                "lineAppearanceAssociationForPresences": null,
+                "pinCredentials": {
+                    "pinCredLockedByAdministrator": false,
+                    "pinCredTimeAdminLockout": null,
+                    "pinCredDoesNotExpire": true,
+                    "pinCredPolicyName": "Default Credential Policy",
+                    "pinCredUserCantChange": false,
+                    "pinCredTimeChanged": false,
+                    "pinCredUserMustChange": false
+                },
+                "userProfile": null
+            }
+        },
+        {
+            "pkid": "599f4513acba0ae6b44148d3",
+            "meta": {
+                "title": "IT Help Desk Engineer",
+                "cached": true,
+                "tags": [],
+                "schema_version": "10.0",
+                "summary": "false",
+                "references": {
+                    "parent": [
+                        {
+                            "pkid": "551dbc29acba0a169119a44e",
+                            "href": "/api/data/HierarchyNode/551dbc29acba0a169119a44e"
+                        }
+                    ],
+                    "self": [
+                        {
+                            "pkid": "599f4513acba0ae6b44148d3",
+                            "href": "/api/relation/Subscriber/599f4513acba0ae6b44148d3/"
+                        }
+                    ],
+                    "foreign_key": [],
+                    "owner": [
+                        {
+                            "pkid": ""
+                        }
+                    ],
+                    "device": [
+                        {
+                            "pkid": "551db747acba0a16911974d1",
+                            "href": "/api/v0/data/CallManager/551db747acba0a16911974d1"
+                        }
+                    ],
+                    "children": []
+                },
+                "api_version": "11.5.1",
+                "model_type": "relation/Subscriber",
+                "path": [
+                    "1c0ffee2c0deab00da595101",
+                    "545ab6b5acba0a18a0d3a86e",
+                    "551cbc26acba0a1691197134",
+                    "551cc09bacba0a1691197285",
+                    "551dbc29acba0a169119a44e",
+                    "599f4513acba0ae6b44148d3"
+                ],
+                "actions": [
+                    {
+                        "update": {
+                            "support_async": true,
+                            "href": "/api/relation/Subscriber/599f4513acba0ae6b44148d3/",
+                            "title": "Modify",
+                            "method": "PUT",
+                            "class": "update"
+                        }
+                    },
+                    {
+                        "remove": {
+                            "support_async": true,
+                            "href": "/api/relation/Subscriber/599f4513acba0ae6b44148d3/",
+                            "title": "Delete",
+                            "method": "DELETE",
+                            "class": "delete"
+                        }
+                    },
+                    {
+                        "move": {
+                            "title": "Move",
+                            "support_async": true,
+                            "class": "move",
+                            "href": "/api/tool/DataMove/599f4513acba0ae6b44148d3/?model_type=relation/Subscriber",
+                            "method": "POST",
+                            "view": "/api/tool/DataMove/"
+                        }
+                    },
+                    {
+                        "export": {
+                            "title": "Export",
+                            "support_async": false,
+                            "submit": "payload",
+                            "class": "export",
+                            "href": "/api/relation/Subscriber/599f4513acba0ae6b44148d3/export/",
+                            "method": "GET",
+                            "view": "/api/view/ExportData/add/"
+                        }
+                    },
+                    {
+                        "get": {
+                            "support_async": false,
+                            "href": "/api/relation/Subscriber/599f4513acba0ae6b44148d3/",
+                            "title": "Get",
+                            "method": "GET",
+                            "class": "get"
+                        }
+                    },
+                    {
+                        "help": {
+                            "support_async": false,
+                            "href": "/api/relation/Subscriber/599f4513acba0ae6b44148d3/help",
+                            "title": "Help",
+                            "method": "GET",
+                            "class": "help"
+                        }
+                    },
+                    {
+                        "AddCUCUser": {
+                            "support_async": true,
+                            "href": "/api/relation/Subscriber/599f4513acba0ae6b44148d3/+AddCUCUser/",
+                            "title": "Add Cuc User",
+                            "method": "POST",
+                            "class": "custom"
+                        }
+                    },
+                    {
+                        "AddDeviceProfile": {
+                            "support_async": true,
+                            "href": "/api/relation/Subscriber/599f4513acba0ae6b44148d3/+AddDeviceProfile/",
+                            "title": "Add Device Profile",
+                            "method": "POST",
+                            "class": "custom"
+                        }
+                    },
+                    {
+                        "AddMobileIdentity": {
+                            "support_async": true,
+                            "href": "/api/relation/Subscriber/599f4513acba0ae6b44148d3/+AddMobileIdentity/",
+                            "title": "Add Mobile Identity",
+                            "method": "POST",
+                            "class": "custom"
+                        }
+                    },
+                    {
+                        "AddPhone": {
+                            "support_async": true,
+                            "href": "/api/relation/Subscriber/599f4513acba0ae6b44148d3/+AddPhone/",
+                            "title": "Add Phone",
+                            "method": "POST",
+                            "class": "custom"
+                        }
+                    },
+                    {
+                        "AddRemoteDestinationPhone": {
+                            "support_async": true,
+                            "href": "/api/relation/Subscriber/599f4513acba0ae6b44148d3/+AddRemoteDestinationPhone/",
+                            "title": "Add Remote Destination Phone",
+                            "method": "POST",
+                            "class": "custom"
+                        }
+                    },
+                    {
+                        "AddRemoteDestinationProfile": {
+                            "support_async": true,
+                            "href": "/api/relation/Subscriber/599f4513acba0ae6b44148d3/+AddRemoteDestinationProfile/",
+                            "title": "Add Remote Destination Profile",
+                            "method": "POST",
+                            "class": "custom"
+                        }
+                    },
+                    {
+                        "AddRemoteDestinationRDP": {
+                            "support_async": true,
+                            "href": "/api/relation/Subscriber/599f4513acba0ae6b44148d3/+AddRemoteDestinationRDP/",
+                            "title": "Add Remote Destination Rdp",
+                            "method": "POST",
+                            "class": "custom"
+                        }
+                    },
+                    {
+                        "AddWebExUser": {
+                            "support_async": true,
+                            "href": "/api/relation/Subscriber/599f4513acba0ae6b44148d3/+AddWebExUser/",
+                            "title": "Add Web Ex User",
+                            "method": "POST",
+                            "class": "custom"
+                        }
+                    },
+                    {
+                        "DelCUCUser": {
+                            "support_async": true,
+                            "href": "/api/relation/Subscriber/599f4513acba0ae6b44148d3/+DelCUCUser/",
+                            "title": "Del Cuc User",
+                            "method": "POST",
+                            "class": "custom"
+                        }
+                    },
+                    {
+                        "DelDeviceProfile": {
+                            "support_async": true,
+                            "href": "/api/relation/Subscriber/599f4513acba0ae6b44148d3/+DelDeviceProfile/",
+                            "title": "Del Device Profile",
+                            "method": "POST",
+                            "class": "custom"
+                        }
+                    },
+                    {
+                        "DelMobileIdentity": {
+                            "support_async": true,
+                            "href": "/api/relation/Subscriber/599f4513acba0ae6b44148d3/+DelMobileIdentity/",
+                            "title": "Del Mobile Identity",
+                            "method": "POST",
+                            "class": "custom"
+                        }
+                    },
+                    {
+                        "DelPhone": {
+                            "support_async": true,
+                            "href": "/api/relation/Subscriber/599f4513acba0ae6b44148d3/+DelPhone/",
+                            "title": "Del Phone",
+                            "method": "POST",
+                            "class": "custom"
+                        }
+                    },
+                    {
+                        "DelRemoteDestinationPhone": {
+                            "support_async": true,
+                            "href": "/api/relation/Subscriber/599f4513acba0ae6b44148d3/+DelRemoteDestinationPhone/",
+                            "title": "Del Remote Destination Phone",
+                            "method": "POST",
+                            "class": "custom"
+                        }
+                    },
+                    {
+                        "DelRemoteDestinationProfile": {
+                            "support_async": true,
+                            "href": "/api/relation/Subscriber/599f4513acba0ae6b44148d3/+DelRemoteDestinationProfile/",
+                            "title": "Del Remote Destination Profile",
+                            "method": "POST",
+                            "class": "custom"
+                        }
+                    },
+                    {
+                        "DelRemoteDestinationRDP": {
+                            "support_async": true,
+                            "href": "/api/relation/Subscriber/599f4513acba0ae6b44148d3/+DelRemoteDestinationRDP/",
+                            "title": "Del Remote Destination Rdp",
+                            "method": "POST",
+                            "class": "custom"
+                        }
+                    },
+                    {
+                        "DelWebExUser": {
+                            "support_async": true,
+                            "href": "/api/relation/Subscriber/599f4513acba0ae6b44148d3/+DelWebExUser/",
+                            "title": "Del Web Ex User",
+                            "method": "POST",
+                            "class": "custom"
+                        }
+                    }
+                ],
+                "summary_attrs": [
+                    {
+                        "name": "userid",
+                        "title": "Userid"
+                    },
+                    {
+                        "name": "firstName",
+                        "title": "First Name"
+                    },
+                    {
+                        "name": "lastName",
+                        "title": "Last Name"
+                    },
+                    {
+                        "name": "department",
+                        "title": "Department"
+                    },
+                    {
+                        "name": "associatedDevices.device",
+                        "title": "Controlled Devices"
+                    },
+                    {
+                        "name": "phoneProfiles.profileName",
+                        "title": "Controlled Profiles"
+                    },
+                    {
+                        "allow_filtering": false,
+                        "name": "hierarchy_path",
+                        "title": "Hierarchy"
+                    },
+                    {
+                        "allow_filtering": false,
+                        "name": "summary_device",
+                        "title": "Device"
+                    }
+                ],
+                "business_key": {},
+                "tagged_versions": []
+            },
+            "data": {
+                "associatedPc": null,
+                "convertUserAccount": "lfad1",
+                "directoryUri": "JKing@liquidfinancial.com",
+                "enableMobileVoiceAccess": false,
+                "imAndPresenceEnable": true,
+                "calendarPresence": false,
+                "associatedDevices": {
+                    "device": [
+                        "jkingJabber",
+                        "TCTJAMESKING",
+                        "SEPCCCCDDDD8841",
+                        "BOTJAMESKING"
+                    ]
+                },
+                "manager": null,
+                "ipccExtension": null,
+                "homeCluster": true,
+                "maxDeskPickupWaitTime": 10000,
+                "primaryExtension": {
+                    "pattern": "5807941",
+                    "routePartitionName": "Cu1-DirNum-PT"
+                },
+                "summary_device": "Dedicated CUCM, 198.18.1.13, 8443, hcs.DCloudSP.Liquid Financial",
+                "title": "IT Help Desk Engineer",
+                "middleName": null,
+                "phoneProfiles": null,
+                "homeNumber": null,
+                "department": "Headquarters",
+                "ldapDirectoryName": "lfad1",
+                "digestCredentials": null,
+                "associatedGroups": {
+                    "userGroup": [
+                        {
+                            "name": "Standard CCM End Users",
+                            "userRoles": {
+                                "userRole": [
+                                    "Standard CCM End Users",
+                                    "Standard CCMUSER Administration"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                "selfService": "5807941",
+                "enableMobility": true,
+                "enableEmcc": false,
+                "subscribeCallingSearchSpaceName": null,
+                "hierarchy_path": "sys.hcs.DCloudSP.Liquid Financial.LFDFW",
+                "passwordCredentials": {
+                    "pwdCredUserMustChange": true,
+                    "pwdCredUserCantChange": false,
+                    "pwdCredTimeChanged": "August 24, 2017 14:28:51 PDT",
+                    "pwdCredTimeAdminLockout": null,
+                    "pwdCredPolicyName": "Default Credential Policy",
+                    "pwdCredLockedByAdministrator": false,
+                    "pwdCredDoesNotExpire": false
+                },
+                "userLocale": null,
+                "enableCti": true,
+                "mailid": "JKing@liquidfinancial.com",
+                "pagerNumber": null,
+                "nameDialing": "KingJames",
+                "telephoneNumber": "5807941",
+                "mobileNumber": null,
+                "presenceGroupName": "Standard Presence group",
+                "firstName": "James",
+                "lastName": "King",
+                "serviceProfile": "LFUCServiceProf",
+                "userid": "jking",
+                "ctiControlledDeviceProfiles": null,
+                "extensionsInfo": {
+                    "extension": [
+                        {
+                            "pattern": "5807941",
+                            "sortOrder": 0,
+                            "routePartition": "Cu1-DirNum-PT"
+                        }
+                    ]
+                },
+                "userIdentity": "JKing@liquidfinancial.com",
+                "status": 1,
+                "remoteDestinationLimit": 4,
+                "lineAppearanceAssociationForPresences": {
+                    "lineAppearanceAssociationForPresence": [
+                        {
+                            "laapProductType": "Cisco Unified Client Services Framework",
+                            "laapAssociate": "f",
+                            "laapDeviceName": "jkingJabber",
+                            "laapPartition": "Cu1-DirNum-PT",
+                            "laapDirectory": "5807941",
+                            "laapDescription": "James King Jabber"
+                        },
+                        {
+                            "laapProductType": "Cisco Dual Mode for iPhone",
+                            "laapAssociate": "f",
+                            "laapDeviceName": "TCTJAMESKING",
+                            "laapPartition": "Cu1-DirNum-PT",
+                            "laapDirectory": "5807941",
+                            "laapDescription": "James King iPhone"
+                        },
+                        {
+                            "laapProductType": "Cisco 8841",
+                            "laapAssociate": "f",
+                            "laapDeviceName": "SEPCCCCDDDD8841",
+                            "laapPartition": "Cu1-DirNum-PT",
+                            "laapDirectory": "5807941",
+                            "laapDescription": "James King Phone"
+                        },
+                        {
+                            "laapProductType": "Cisco Dual Mode for Android",
+                            "laapAssociate": "f",
+                            "laapDeviceName": "BOTJAMESKING",
+                            "laapPartition": "Cu1-DirNum-PT",
+                            "laapDirectory": "5807941",
+                            "laapDescription": "James King Android"
+                        }
+                    ]
+                },
+                "pinCredentials": {
+                    "pinCredLockedByAdministrator": false,
+                    "pinCredTimeAdminLockout": null,
+                    "pinCredDoesNotExpire": true,
+                    "pinCredPolicyName": "Default Credential Policy",
+                    "pinCredUserCantChange": false,
+                    "pinCredTimeChanged": false,
+                    "pinCredUserMustChange": false
+                },
+                "userProfile": null
+            }
+        }
+    ]
+}
