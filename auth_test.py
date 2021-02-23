@@ -1,8 +1,8 @@
 import urllib.request
 import requests
 
-u='alikh1234@yahoo.com'
-p='zuzaali10'
+u='Username'
+p='password'
 url='https://api.github.com/users/username'
 
 
