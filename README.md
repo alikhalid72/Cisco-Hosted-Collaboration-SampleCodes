@@ -1,4 +1,4 @@
-# CUCDM115
+# Cisco Hosted Unified Collaboration 'HCS'
 Cisco CUCDM 11.5 python automation.
 
 This project includes automation testing with Cisco dcloud environment for CUCDM 11.5, includes authentication, retrieving users and features info from the CUCDM server in JSON format, storing it in text or database.
