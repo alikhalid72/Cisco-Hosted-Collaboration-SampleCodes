@@ -11,7 +11,7 @@ url = "https://198.18.133.254/api/relation/HcsUserREL/"
 
 
 headers = {
-    'Authorization': "Basic RENsb3VkU1BBZG1pbkBkY2xvdWQuY2lzY28uY29tOkMxc2NvMTIz",
+    'Authorization': "Basic '64encodedathentication'",
     'Cache-Control': "no-cache",
     'Postman-Token': "953e9c63-e753-40de-93b3-ee6d09eb6400"
     }
