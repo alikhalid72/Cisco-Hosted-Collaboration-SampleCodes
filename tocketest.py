@@ -25,7 +25,7 @@ headers = {
     }
 
 headers1 = {
-    'Authorization': "Basic RENsb3VkU1BBZG1pbkBkY2xvdWQuY2lzY28uY29tOkMxc2NvMTIz",
+    'Authorization': "Basic '64encodedauth'",
     'Cache-Control': "no-cache",
     'Postman-Token': "f5163695-fbed-42ab-90c9-967eb6f20049"
     }
