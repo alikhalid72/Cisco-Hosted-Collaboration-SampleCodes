@@ -1,4 +1,4 @@
-from cucdm_auth import * # APIC-EM IP is assigned in apicem_config.py
+from cucdm_auth import *
 
 try:
     resp = get(api="policy/tag")
